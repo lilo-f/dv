@@ -1,154 +1,4 @@
-esse é o meu blog e esta dando esse erro no console do navegador e tambem os posts  esta indo triplicado para o banco VM41456 blog.html:712 Uncaught TypeError: Cannot read properties of undefined (reading 'length')
-    at RavenBlog.renderPosts (VM41456 blog.html:712:19)
-    at HTMLDocument.<anonymous> (VM41456 blog.html:980:14)Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-2VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-2VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-2VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-2VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-3VM41456 blog.html:450 Imagem removida
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)
-loadPosts @ VM41456 blog.html:134Entenda o erro
-localhost/trabalhofinal/finalmente/api/blog.php:1  Failed to load resource: the server responded with a status of 400 (Bad Request)Entenda o erro
-VM41456 blog.html:134 Erro: Error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10' OFFSET '0'' at line 7
-    at RavenBlog.loadPosts (VM41456 blog.html:131:23)           :
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -1625,6 +1475,7 @@ emoji-picker {
         
         <!-- Formulário para novos posts (apenas admin) -->
   
+<!-- Garanta que seu formulário tem esta estrutura -->
 <div class="new-post-form" id="new-post-form">
     <div class="post-form-header">
         <div class="form-avatar">
@@ -1659,7 +1510,7 @@ emoji-picker {
                 <i class="fas fa-smile"></i>
             </button>
         </div>
-        <button class="post-btn" onclick="blog.createPost()">
+        <button class="post-btn" id="post-button">
             PUBLICAR
         </button>
     </div>
@@ -1841,475 +1692,551 @@ emoji-picker {
   <script src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script >
-        
-            // Dados premium para o chatbot
-    const ravenFaqData = {
-        "precos": [
-            {
-                question: "Qual é o valor mínimo para uma tatuagem?",
-                answer: "Nosso valor mínimo é de R$ 300 para tatuagens pequenas (até 10cm).<br><br>" +
-                       "Tabela de referência:<br>" +
-                       "• Pequenas (até 10cm): R$ 300-600<br>" +
-                       "• Médias (10-20cm): R$ 600-1200<br>" +
-                       "• Grandes (acima de 20cm): A partir de R$ 1200<br><br>" +
-                       "Valores exatos são definidos após avaliação do desenho."
-            },
-            {
-                question: "Como é calculado o preço da tatuagem?",
-                answer: "Consideramos vários fatores:<br><br>" +
-                       "1. <strong>Tamanho</strong>: Área a ser tatuada<br>" +
-                       "2. <strong>Complexidade</strong>: Nível de detalhes e cores<br>" +
-                       "3. <strong>Tempo estimado</strong>: Horas de trabalho necessárias<br>" +
-                       "4. <strong>Local no corpo</strong>: Áreas mais difíceis podem ter ajuste<br>" +
-                       "5. <strong>Experiência do artista</strong>: Artistas sênior possuem valores diferenciados<br><br>" +
-                       "Oferecemos avaliação gratuita para orçamento preciso."
-            }
-        ],
-        "dor": [
-            {
-                question: "Quanto dói fazer uma tatuagem?",
-                answer: "A dor varia conforme a região do corpo:<br><br>" +
-                       "<strong>Baixa dor (1-3/10)</strong>:<br>" +
-                       "• Braços (parte externa)<br>" +
-                       "• Coxas<br>" +
-                       "• Costas<br><br>" +
-                       "<strong>Média dor (4-6/10)</strong>:<br>" +
-                       "• Panturrilhas<br>" +
-                       "• Peito<br>" +
-                       "• Ombros<br><br>" +
-                       "<strong>Alta dor (7-9/10)</strong>:<br>" +
-                       "• Costelas<br>" +
-                       "• Pés e mãos<br>" +
-                       "• Pescoço/Clavícula<br><br>" +
-                       "A maioria dos clientes descreve como uma queimadura constante."
-            },
-            {
-                question: "Qual a parte mais dolorosa para tatuar?",
-                answer: "As áreas mais dolorosas geralmente são:<br><br>" +
-                       "1. <strong>Costelas</strong>: Pele fina sobre osso<br>" +
-                       "2. <strong>Pés e mãos</strong>: Muitas terminações nervosas<br>" +
-                       "3. <strong>Axilas</strong>: Pele sensível e móvel<br>" +
-                       "4. <strong>Cotovelos e joelhos</strong>: Pele dura e articulações<br><br>" +
-                       "Dica: Sessões mais curtas ajudam nas áreas mais dolorosas."
-            }
-        ],
-        "procedimento": [
-            {
-                question: "Como é o processo de fazer uma tatuagem?",
-                answer: "Nosso processo premium:<br><br>" +
-                       "1. <strong>Consulta</strong>: Discussão do conceito e referências<br>" +
-                       "2. <strong>Agendamento</strong>: Reserva com sinal de 30%<br>" +
-                       "3. <strong>Desenho</strong>: Criação personalizada 48h antes<br>" +
-                       "4. <strong>Aprovação</strong>: Ajustes finais no studio<br>" +
-                       "5. <strong>Aplicação</strong>: Sessão com materiais esterilizados<br>" +
-                       "6. <strong>Cuidados</strong>: Orientações pós-tatuagem<br><br>" +
-                       "Todo material é descartável e de qualidade profissional."
-            },
-            {
-                question: "Preciso usar anestésico?",
-                answer: "Não recomendamos anestésicos tópicos porque:<br><br>" +
-                       "• Podem alterar a textura da pele<br>" +
-                       "• Afetam a absorção da tinta<br>" +
-                       "• O resultado final pode ser comprometido<br><br>" +
-                       "A dor é parte do processo, mas garantimos suporte durante toda a sessão."
-            }
-        ],
-        "cuidados": [
-            {
-                question: "Quais os cuidados após fazer a tatuagem?",
-                answer: "<strong>Primeiras 48 horas</strong>:<br>" +
-                       "• Manter o plástico por 2-4 horas<br>" +
-                       "• Lavar com sabonete antisséptico<br>" +
-                       "• Aplicar pomada específica<br><br>" +
-                       "<strong>Primeiras 2 semanas</strong>:<br>" +
-                       "• Lavar 3x ao dia<br>" +
-                       "• Manter hidratada<br>" +
-                       "• Evitar sol, piscina e mar<br>" +
-                       "• Não arrancar casquinhas<br><br>" +
-                       "<strong>Após cicatrização</strong>:<br>" +
-                       "• Usar protetor solar sempre"
-            },
-            {
-                question: "Quanto tempo leva para cicatrizar completamente?",
-                answer: "Cronograma de cicatrização:<br><br>" +
-                       "<strong>1-3 dias</strong>: Vermelhidão e inchaço<br>" +
-                       "<strong>3-7 dias</strong>: Pele começa a descamar<br>" +
-                       "<strong>2-3 semanas</strong>: Cicatrização superficial completa<br>" +
-                       "<strong>4-6 semanas</strong>: Cicatrização total das camadas profundas<br><br>" +
-                       "Tatuagens maiores podem levar mais tempo para cicatrizar completamente."
-            }
-        ],
-        "estilos": [
-            {
-                question: "Quais estilos de tatuagem vocês oferecem?",
-                answer: "Especialidades do nosso studio:<br><br>" +
-                       "• <strong>Tradicional/Old School</strong>: Cores vivas, traços grossos<br>" +
-                       "• <strong>Realismo</strong>: Retratos, animais, paisagens<br>" +
-                       "• <strong>Blackwork</strong>: Preenchimentos sólidos em preto<br>" +
-                       "• <strong>Aquarela</strong>: Efeito pintura com cores fluidas<br>" +
-                       "• <strong>Geométrico</strong>: Padrões simétricos e precisos<br>" +
-                       "• <strong>Pontilhismo</strong>: Imagens formadas por pontos<br>" +
-                       "• <strong>Minimalista</strong>: Traços finos e simplificados<br><br>" +
-                       "Cada artista tem seu estilo predominante."
-            },
-            {
-                question: "Qual estilo de tatuagem dura mais tempo?",
-                answer: "Durabilidade por estilo:<br><br>" +
-                       "<strong>Melhor duração</strong>:<br>" +
-                       "• Tradicional (traços grossos e cores sólidas)<br>" +
-                       "• Blackwork (grandes áreas de tinta preta)<br><br>" +
-                       "<strong>Requer mais manutenção</strong>:<br>" +
-                       "• Aquarela (cores claras e degradês)<br>" +
-                       "• Fine Line (traços muito finos)<br><br>" +
-                       "Independente do estilo, cuidados adequados prolongam a vida da tatuagem."
-            }
-        ],
-        "agendamento": [
-            {
-                question: "Como faço para agendar minha tatuagem?",
-                answer: "Processo de agendamento:<br><br>" +
-                       "1. Acesse nosso sistema online<br>" +
-                       "2. Selecione o artista desejado<br>" +
-                       "3. Escolha data/horário disponível<br>" +
-                       "4. Descreva sua ideia em detalhes<br>" +
-                       "5. Efetue o pagamento do sinal (30%)<br>" +
-                       "6. Receba confirmação por e-mail<br><br>" +
-                       "Cancelamentos devem ser feitos com 48h de antecedência."
-            },
-            {
-                question: "Preciso ter o desenho pronto antes de agendar?",
-                answer: "Não é necessário! Nossos artistas oferecem:<br><br>" +
-                       "• <strong>Consultoria criativa</strong>: Ajudamos a desenvolver sua ideia<br>" +
-                       "• <strong>Design personalizado</strong>: Criamos a arte exclusiva para você<br>" +
-                       "• <strong>Revisões gratuitas</strong>: Ajustes até você aprovar<br><br>" +
-                       "Basta trazer referências ou descrever sua visão que cuidamos do resto."
-            }
-        ]
-    };
-
-    // Variáveis de estado
-    let currentRavenCategory = null; // Armazena a categoria atualmente selecionada para o botão "Voltar"
-
-    // Função para formatar a hora (ex: 10:30 PM)
-    function formatTime(date) {
-        let hours = date.getHours();
-        let minutes = date.getMinutes();
-        let ampm = hours >= 12 ? 'PM' : 'AM';
-        hours = hours % 12;
-        hours = hours ? hours : 12; // The hour '0' should be '12'
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        return hours + ':' + minutes + ' ' + ampm;
-    }
-
-    // Funções do Chatbot
-    function showRavenCategories() {
-        document.getElementById('ravenChatCategories').style.display = 'block';
-        document.getElementById('ravenChatQuestions').style.display = 'none';
-        document.getElementById('ravenChatAnswers').style.display = 'none';
-        currentRavenCategory = null; // Reseta a categoria atual
-
-        // Adiciona animação às categorias
-        const categories = document.querySelectorAll('.category-card');
-        categories.forEach((card, index) => {
-            card.style.animation = `fadeInUp 0.5s ease-out ${index * 0.1}s forwards`;
-            card.style.opacity = '0'; // Garante que começa invisível para a animação
-        });
-        // Rola para o topo do conteúdo do chat
-        document.getElementById('ravenChatContent').scrollTop = 0;
-    }
-
-    function showRavenCategory(category) {
-        currentRavenCategory = category;
-
-        const questionsContainer = document.getElementById('ravenQuestionsList');
-        const categoryData = ravenFaqData[category] || [];
-
-        questionsContainer.innerHTML = ''; // Limpa as perguntas anteriores
-
-        if (categoryData.length > 0) {
-            categoryData.forEach((faq, index) => {
-                const questionCard = document.createElement('button'); // Usar button para melhor acessibilidade
-                questionCard.className = 'question-card';
-                questionCard.setAttribute('role', 'listitem'); // Para leitores de tela
-                questionCard.setAttribute('aria-label', `Pergunta: ${faq.question}`);
-                questionCard.innerHTML = `<p>${faq.question}</p>`;
-                // Ao clicar, exibe a resposta para a pergunta específica
-                questionCard.onclick = () => showRavenAnswer(category, index);
-                questionCard.style.animation = `fadeIn 0.5s ease-out ${index * 0.1}s forwards`;
-                questionCard.style.opacity = '0';
-                questionsContainer.appendChild(questionCard);
-            });
-        } else {
-            questionsContainer.innerHTML = '<p style="color:#ddd; text-align:center;">Nenhuma pergunta disponível para esta categoria.</p>';
-        }
-
-        document.getElementById('ravenChatCategories').style.display = 'none';
-        document.getElementById('ravenChatQuestions').style.display = 'block';
-        document.getElementById('ravenChatAnswers').style.display = 'none';
-        // Rola para o topo do conteúdo do chat
-        document.getElementById('ravenChatContent').scrollTop = 0;
-    }
-
-    function showRavenAnswer(category, questionIndex) {
-        const faq = ravenFaqData[category][questionIndex];
-        const answerContent = document.getElementById('ravenAnswerContent');
-
-        answerContent.innerHTML = `
-            <div class="answer-container">
-                <h5>${faq.question}</h5>
-                <p>${faq.answer}</p>
-            </div>
-        `;
-
-        document.getElementById('ravenChatCategories').style.display = 'none';
-        document.getElementById('ravenChatQuestions').style.display = 'none';
-        document.getElementById('ravenChatAnswers').style.display = 'block';
-        // Rola para o topo do conteúdo do chat
-        document.getElementById('ravenChatContent').scrollTop = 0;
-    }
-
-    function showRavenQuestions() {
-        if (currentRavenCategory) {
-            showRavenCategory(currentRavenCategory); // Retorna para a categoria específica
-        } else {
-            showRavenCategories(); // Padrão: volta para as categorias
-        }
-        document.getElementById('ravenChatAnswers').style.display = 'none';
-        document.getElementById('ravenChatQuestions').style.display = 'block'; // Garante que a seção de perguntas esteja visível
-        // Rola para o topo do conteúdo do chat
-        document.getElementById('ravenChatContent').scrollTop = 0;
-    }
-
-
-    // Inicialização do Chatbot
-    document.addEventListener('DOMContentLoaded', function() {
-        const chatToggle = document.getElementById('ravenChatToggle');
-        const chatContainer = document.getElementById('ravenChatContainer');
-        const chatClose = document.getElementById('ravenChatClose');
-        const welcomeMessageTime = document.getElementById('welcomeMessageTime');
-        
-        // Botão de voltar ao topo
-        const backToTopButton = document.getElementById('backToTop');
-            
-        // Mostrar/ocultar botão de voltar ao topo
-        window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 300) {
-                backToTopButton.classList.add('show');
-            } else {
-                backToTopButton.classList.remove('show');
-            }
-        });
-            
-        // Voltar ao topo
-        backToTopButton.addEventListener('click', function() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Atualiza a hora da mensagem de boas-vindas
-        welcomeMessageTime.textContent = formatTime(new Date());
-
-        // Abrir/fechar chat
-        chatToggle.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const isActive = chatContainer.classList.toggle('active');
-            chatToggle.setAttribute('aria-expanded', isActive); // Acessibilidade: atualiza estado do botão
-            if (isActive) {
-                showRavenCategories(); // Garante que as categorias são mostradas ao abrir
-                chatContainer.focus(); // Foca no container para acessibilidade
-            }
-        });
-
-        chatClose.addEventListener('click', function() {
-            chatContainer.classList.remove('active');
-            chatToggle.setAttribute('aria-expanded', 'false'); // Acessibilidade
-            chatToggle.focus(); // Retorna o foco ao botão de toggle
-        });
-
-        // Fechar chat ao clicar fora
-        document.addEventListener('click', function(e) {
-            if (!chatContainer.contains(e.target) && !chatToggle.contains(e.target)) {
-                chatContainer.classList.remove('active');
-                chatToggle.setAttribute('aria-expanded', 'false'); // Acessibilidade
-            }
-        });
-
-        // Evitar fechar ao clicar dentro do chat
-        chatContainer.addEventListener('click', function(e) {
-            e.stopPropagation();
-        });
-
-        // Adiciona funcionalidade para fechar com a tecla ESC
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && chatContainer.classList.contains('active')) {
-                chatContainer.classList.remove('active');
-                chatToggle.setAttribute('aria-expanded', 'false');
-                chatToggle.focus();
-            }
-        });
-
-    });
-    </script>
-    <script>
-        // Inicializar partículas
-        particlesJS('particles-js', {
-            particles: {
-                number: { value: 60, density: { enable: true, value_area: 800 } },
-                color: { value: "#3b82f6" },
-                shape: { type: "circle" },
-                opacity: { value: 0.3, random: true },
-                size: { value: 3, random: true },
-                line_linked: { enable: true, distance: 150, color: "#3b82f6", opacity: 0.2, width: 1 },
-                move: { enable: true, speed: 2, direction: "none", random: true, straight: false, out_mode: "out" }
-            },
-            interactivity: {
-                detect_on: "canvas",
-                events: {
-                    onhover: { enable: true, mode: "grab" },
-                    onclick: { enable: true, mode: "push" }
-                }
-            }
-        });
-        // Exemplo de como salvar após login bem-sucedido
-function onLoginSuccess(userData) {
-    // Salva no localStorage
-    localStorage.setItem('ravenStudioCurrentUser', JSON.stringify(userData));
-    
-    // Atualiza a sessão
-    if (typeof userSession !== 'undefined') {
-        userSession.currentUser = userData;
-    }
-    
-    // Atualiza no blog
-    if (typeof blog !== 'undefined') {
-        blog.currentUser = userData;
-        blog.loadCurrentUser();
-        blog.renderPosts();
-    }
-    
-    // Atualiza a navegação
-    updateNavUserDisplay();
-}
-// Verifica se o userSession está disponível
-if (typeof userSession === 'undefined' && typeof window.userSession !== 'undefined') {
-    var userSession = window.userSession;
-}
-
-// Função para verificar o login de forma robusta
-function checkUserLoggedIn() {
-    try {
-        // Verifica múltiplas fontes possíveis
-        if (typeof userSession !== 'undefined' && userSession.isLoggedIn()) {
-            return true;
-        }
-        if (typeof window.userSession !== 'undefined' && window.userSession.isLoggedIn()) {
-            return true;
-        }
-        if (localStorage.getItem('ravenStudioCurrentUser')) {
-            return true;
-        }
-        return false;
-    } catch (e) {
-        console.error("Erro ao verificar login:", e);
-        return false;
-    }
-}
-      class RavenBlog {
-        
+     /**
+ * Classe principal do Blog Raven Studio
+ * Gerencia todas as operações do blog, incluindo posts, comentários e likes
+ */
+class RavenBlog {
     constructor() {
+        // Configurações
+        this.API_URL = 'http://localhost/trabalhofinal/finalmente/api/blog.php';
         this.MAX_IMAGE_SIZE = 2 * 1024 * 1024; // 2MB
-        this.selectedImage = null;
+        this.POSTS_PER_PAGE = 10;
+        
+        // Estado da aplicação
         this.currentPage = 1;
         this.isLoading = false;
         this.hasMorePosts = true;
+        this.selectedImage = null;
+        this.scrollTimeout = null;
+        
+        // Inicialização
         this.init();
     }
 
+    /**
+     * Inicializa o blog
+     */
     init() {
-        this.loadCurrentUser();
-        this.initImageUpload();
+        this.checkLoginStatus();
         this.setupEventListeners();
+        this.loadCurrentUser();
         this.loadPosts();
-        
-        // Verificar scroll para carregar mais posts
-        window.addEventListener('scroll', () => this.checkScroll());
     }
 
-    checkScroll() {
-        const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-        if (scrollTop + clientHeight >= scrollHeight - 500) {
-            this.loadPosts();
+    /**
+     * Verifica o status de login do usuário
+     */
+    checkLoginStatus() {
+        if (!window.userSession || !window.userSession.isLoggedIn()) {
+            this.showLoginRequired();
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * Mostra mensagem quando login é necessário
+     */
+    showLoginRequired() {
+        const container = document.getElementById('posts-feed');
+        if (!container) return;
+
+        container.innerHTML = `
+            <div class="empty-feed">
+                <i class="fas fa-lock"></i>
+                <h3>Conteúdo Bloqueado</h3>
+                <p>Faça login para visualizar os posts</p>
+                <a href="/pages/login.html" class="login-btn">Fazer Login</a>
+            </div>
+        `;
+    }
+
+    /**
+     * Configura os event listeners
+     */
+    setupEventListeners() {
+        // Botão de admin
+        const adminToggle = document.getElementById('admin-toggle');
+        if (adminToggle) {
+            adminToggle.addEventListener('click', () => this.toggleAdmin());
+        }
+
+        // Upload de imagem
+        const imageInput = document.getElementById('image-input');
+        if (imageInput) {
+            imageInput.addEventListener('change', (e) => this.handleImageUpload(e));
+        }
+        
+        // Botão de remover imagem
+        const removeImageBtn = document.getElementById('remove-image-btn');
+        if (removeImageBtn) {
+            removeImageBtn.addEventListener('click', () => this.removeImage());
+        }
+        
+    // Botão de publicar - versão corrigida
+    const postBtn = document.querySelector('.post-btn');
+    if (postBtn) {
+        postBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.createPost();
+        });
+    }
+    // Permitir submit com Enter no textarea
+    const postContent = document.getElementById('post-content');
+    if (postContent) {
+        postContent.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                e.preventDefault();
+                this.createPost();
+            }
+        });
+    }
+
+        // Emoji picker
+        this.setupEmojiPicker();
+
+        // Scroll infinito
+        window.addEventListener('scroll', () => this.handleScroll());
+
+        // Botão voltar ao topo
+        const backToTopBtn = document.getElementById('backToTop');
+        if (backToTopBtn) {
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
         }
     }
 
-    async loadPosts() {
-        if (this.isLoading || !this.hasMorePosts) return;
+    /**
+     * Configura o emoji picker
+     */
+    setupEmojiPicker() {
+        const emojiButton = document.getElementById('emoji-btn');
+        const emojiPicker = document.getElementById('emoji-picker');
+        const postContent = document.getElementById('post-content');
+
+        if (!emojiButton || !emojiPicker || !postContent) return;
+
+        emojiPicker.style.position = 'absolute';
+        emojiPicker.style.display = 'none';
+        emojiPicker.style.zIndex = '1000';
+
+        emojiButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            
+            const rect = emojiButton.getBoundingClientRect();
+            emojiPicker.style.display = emojiPicker.style.display === 'none' ? 'block' : 'none';
+            emojiPicker.style.top = `${rect.bottom + window.scrollY + 5}px`;
+            emojiPicker.style.left = `${rect.left + window.scrollX - 300}px`;
+            
+            emojiButton.classList.toggle('active');
+        });
+
+        emojiPicker.addEventListener('emoji-click', (event) => {
+            const emoji = event.detail.unicode;
+            const cursorPos = postContent.selectionStart;
+            const textBefore = postContent.value.substring(0, cursorPos);
+            const textAfter = postContent.value.substring(cursorPos);
+            
+            postContent.value = textBefore + emoji + textAfter;
+            postContent.selectionStart = cursorPos + emoji.length;
+            postContent.selectionEnd = cursorPos + emoji.length;
+            postContent.focus();
+            
+            emojiPicker.style.display = 'none';
+            emojiButton.classList.remove('active');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!emojiPicker.contains(e.target) && e.target !== emojiButton) {
+                emojiPicker.style.display = 'none';
+                emojiButton.classList.remove('active');
+            }
+        });
+    }
+
+    /**
+     * Manipula o scroll para carregar mais posts
+     */
+    handleScroll() {
+        // Mostrar/ocultar botão voltar ao topo
+        const backToTopBtn = document.getElementById('backToTop');
+        if (backToTopBtn) {
+            backToTopBtn.style.display = window.pageYOffset > 300 ? 'flex' : 'none';
+        }
+
+        // Debounce para evitar múltiplas chamadas
+        if (this.scrollTimeout) {
+            clearTimeout(this.scrollTimeout);
+        }
+
+        this.scrollTimeout = setTimeout(() => {
+            const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+            
+            if (scrollTop + clientHeight >= scrollHeight - 500 && 
+                !this.isLoading && 
+                this.hasMorePosts) {
+                this.loadPosts();
+            }
+        }, 200);
+    }
+
+    /**
+     * Carrega os dados do usuário atual
+     */
+    loadCurrentUser() {
+        const userContainer = document.getElementById('user-info-container');
+        const userAvatar = document.getElementById('current-user-avatar');
+        const userName = document.getElementById('current-user-name');
+        const adminToggle = document.getElementById('admin-toggle');
         
-        this.isLoading = true;
-        document.getElementById('posts-feed').innerHTML += '<div class="loading">Carregando mais posts...</div>';
+        if (!window.userSession || !window.userSession.isLoggedIn()) {
+            if (userContainer) userContainer.style.display = 'none';
+            return;
+        }
         
         try {
-            const response = await fetch('http://localhost/trabalhofinal/finalmente/api/blog.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${window.userSession?.currentUser?.id || ''}`
-                },
-                body: JSON.stringify({
-                    action: 'get_posts',
-                    page: this.currentPage
-                })
-            });
+            const userData = window.userSession.currentUser;
+            const isAdmin = window.userSession.isAdmin();
             
-            const data = await response.json();
-            
-            if (data.success) {
-                if (data.posts.length === 0) {
-                    this.hasMorePosts = false;
-                    if (this.currentPage === 1) {
-                        document.getElementById('posts-feed').innerHTML = `
-                            <div class="empty-feed">
-                                <i class="fas fa-rss"></i>
-                                <h3>Nenhum post ainda</h3>
-                                <p>Seja o primeiro a compartilhar algo interessante!</p>
+            if (isAdmin) {
+                // Configurações para admin
+                if (userAvatar) {
+                    userAvatar.innerHTML = `
+                        <img src="/img/Logo.png" alt="Raven Studio" 
+                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    `;
+                }
+                
+                if (userName) {
+                    userName.textContent = 'Raven Studio';
+                    userName.classList.add('admin');
+                }
+                
+                if (adminToggle) {
+                    adminToggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: ON';
+                    adminToggle.classList.add('active');
+                    adminToggle.style.display = 'flex';
+                }
+                
+                // Mostra o formulário de posts
+                const newPostForm = document.getElementById('new-post-form');
+                if (newPostForm) newPostForm.classList.add('show');
+            } else {
+                // Configurações para usuários normais
+                const userInitial = userData.name ? userData.name.charAt(0).toUpperCase() : 'U';
+                
+                if (userAvatar) {
+                    if (userData.avatar && userData.avatar.startsWith('data:image')) {
+                        userAvatar.innerHTML = `
+                            <img src="${userData.avatar}" alt="${userData.name || 'Usuário'}" 
+                                 style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                        `;
+                    } else {
+                        userAvatar.innerHTML = `
+                            <div style="width: 100%; height: 100%; 
+                                        background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%); 
+                                        border-radius: 50%; 
+                                        display: flex; 
+                                        align-items: center; 
+                                        justify-content: center;
+                                        color: #000;
+                                        font-weight: bold;">
+                                ${userInitial}
                             </div>
                         `;
                     }
-                } else {
-                    this.renderPosts(data.posts);
-                    this.currentPage++;
                 }
-            } else {
-                throw new Error(data.message || 'Erro ao carregar posts');
+                
+                if (userName) {
+                    userName.textContent = userData.name || 'Usuário';
+                    userName.classList.remove('admin');
+                }
+                
+                if (adminToggle) {
+                    adminToggle.style.display = 'none';
+                }
             }
+            
+            if (userContainer) userContainer.style.display = 'flex';
         } catch (error) {
-            console.error('Erro:', error);
-            this.showNotification(`Erro: ${error.message}`, 'error');
-        } finally {
-            this.isLoading = false;
-            const loadingElements = document.querySelectorAll('.loading');
-            loadingElements.forEach(el => el.remove());
+            console.error('Erro ao carregar usuário:', error);
+            if (userContainer) userContainer.style.display = 'none';
         }
     }
 
-
-    initImageUpload() {
-        const imageInput = document.getElementById('image-input');
-        const removeBtn = document.getElementById('remove-image-btn');
+    /**
+     * Alterna o modo admin
+     */
+    toggleAdmin() {
+        if (!window.userSession || !window.userSession.isAdmin()) return;
         
-        imageInput.addEventListener('change', (e) => this.handleImageUpload(e));
-        removeBtn.addEventListener('click', () => this.removeImage());
+        this.isAdmin = !this.isAdmin;
+        const toggle = document.getElementById('admin-toggle');
+        const form = document.getElementById('new-post-form');
+        
+        if (toggle) {
+            if (this.isAdmin) {
+                toggle.classList.add('active');
+                toggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: ON';
+                if (form) form.classList.add('show');
+            } else {
+                toggle.classList.remove('active');
+                toggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: OFF';
+                if (form) form.classList.remove('show');
+            }
+        }
     }
-  // Modifique a função handleImageUpload
+
+    /**
+     * Carrega os posts do blog
+     */
+async loadPosts() {
+    if (!this.checkLoginStatus() || this.isLoading || !this.hasMorePosts) return;
+    
+    this.isLoading = true;
+    this.showLoadingIndicator();
+    
+    try {
+        const response = await fetch(this.API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${window.userSession?.currentUser?.id || ''}`
+            },
+            body: JSON.stringify({
+                action: 'get_posts',
+                page: this.currentPage,
+                limit: this.POSTS_PER_PAGE
+            })
+        });
+        
+        if (!response.ok) {
+            throw new Error(`Erro HTTP! status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (!data || typeof data !== 'object') {
+            throw new Error('Resposta inválida da API');
+        }
+        
+        if (data.success) {
+            // Verifica se data.posts existe e é um array
+            const receivedPosts = Array.isArray(data.posts) ? data.posts : [];
+            
+            if (receivedPosts.length === 0) {
+                this.hasMorePosts = false;
+                
+                if (this.currentPage === 1) {
+                    this.showEmptyFeed();
+                }
+            } else {
+                this.renderPosts(receivedPosts);
+                this.currentPage++;
+                
+                // Atualiza hasMorePosts baseado na resposta da API
+                if (typeof data.hasMore === 'boolean') {
+                    this.hasMorePosts = data.hasMore;
+                }
+            }
+        } else {
+            throw new Error(data.message || 'Erro ao carregar posts');
+        }
+    } catch (error) {
+        console.error('Erro ao carregar posts:', error);
+        this.showNotification(`Erro: ${error.message}`, 'error');
+        
+        // Força recarregar a página em caso de erro grave
+        if (this.currentPage === 1) {
+            setTimeout(() => {
+                window.location.reload();
+            }, 3000);
+        }
+    } finally {
+        this.isLoading = false;
+        this.hideLoadingIndicator();
+    }
+}
+    /**
+     * Mostra indicador de carregamento
+     */
+    showLoadingIndicator() {
+        const container = document.getElementById('posts-feed');
+        if (!container) return;
+        
+        // Verifica se já existe um indicador
+        if (!document.querySelector('.loading-indicator')) {
+            const loader = document.createElement('div');
+            loader.className = 'loading-indicator';
+            loader.innerHTML = `
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+                <p>Carregando mais posts...</p>
+            `;
+            container.appendChild(loader);
+        }
+    }
+
+    /**
+     * Esconde indicador de carregamento
+     */
+    hideLoadingIndicator() {
+        const loader = document.querySelector('.loading-indicator');
+        if (loader) loader.remove();
+    }
+
+    /**
+     * Mostra feed vazio
+     */
+    showEmptyFeed() {
+        const container = document.getElementById('posts-feed');
+        if (!container) return;
+        
+        container.innerHTML = `
+            <div class="empty-feed">
+                <i class="fas fa-rss"></i>
+                <h3>Nenhum post ainda</h3>
+                <p>Seja o primeiro a compartilhar algo interessante!</p>
+            </div>
+        `;
+    }
+
+    /**
+     * Renderiza os posts no feed
+     */
+   renderPosts(posts) {
+    const container = document.getElementById('posts-feed');
+    if (!container) return;
+
+    // Verificação robusta dos posts
+    if (!posts || !Array.isArray(posts)) {
+        console.error('Dados de posts inválidos:', posts);
+        return;
+    }
+
+    // Se for a primeira página, limpa o container
+    if (this.currentPage === 1) {
+        container.innerHTML = '';
+    }
+
+    // Verifica se há posts para mostrar
+    if (posts.length === 0 && this.currentPage === 1) {
+        this.showEmptyFeed();
+        return;
+    }
+
+    // Filtra posts nulos ou inválidos
+    const validPosts = posts.filter(post => 
+        post && post.id && (post.content || post.image)
+    );
+
+    validPosts.forEach(post => {
+        // Verifica se o post já existe para evitar duplicatas
+        if (document.getElementById(`post-${post.id}`)) return;
+        
+        try {
+            const postDate = new Date(post.created_at);
+            const timeAgo = this.getTimeAgo(postDate);
+            const postElement = document.createElement('article');
+            postElement.className = 'post-card';
+            postElement.id = `post-${post.id}`;
+            postElement.innerHTML = this.generatePostHTML(post, timeAgo);
+            
+            container.appendChild(postElement);
+        } catch (error) {
+            console.error('Erro ao renderizar post:', post, error);
+        }
+    });
+
+    // Configura eventos para os novos posts
+    this.setupPostEvents();
+}
+
+    /**
+     * Gera o HTML para um post
+     */
+generatePostHTML(post, timeAgo) {
+    // Verificação segura dos dados do usuário
+    const firstName = post.first_name || 'Usuário';
+    const lastName = post.last_name || '';
+    const userInitials = firstName.charAt(0) + (lastName ? lastName.charAt(0) : '');
+    const avatar = post.avatar || null;
+    const content = post.content || '';
+    const image = post.image || null;
+
+    return `
+   <header class="post-header">
+            <div class="post-avatar">
+                <img src="/img/Logo.png" alt="${firstName} ${lastName}" 
+                     class="post-avatar-img"
+                     onerror="this.style.display='none'">
+            </div>
+            <div class="post-user-info">
+                <div class="post-username">${firstName} ${lastName}</div>
+                <div class="post-time">${timeAgo}</div>
+            </div>
+        </header>
+        <div class="post-content">
+            ${content ? `<p class="post-text">${content}</p>` : ''}
+            ${image ? `
+                <img src="${image}" class="post-image" 
+                     onclick="blog.openImageModal('${image}')"
+                     onerror="this.style.display='none'">
+            ` : ''}
+        </div>
+        
+        <footer class="post-footer">
+            <button class="post-action" onclick="blog.toggleLike('${post.id}')">
+                <i class="fas fa-heart"></i> ${post.likes_count || 0}
+            </button>
+            <button class="post-action" onclick="blog.toggleComments('${post.id}')">
+                <i class="fas fa-comment"></i> ${post.comments_count || 0}
+            </button>
+            <button class="post-action" onclick="blog.sharePost('${post.id}')">
+                <i class="fas fa-share"></i> Compartilhar
+            </button>
+        </footer>
+        
+        <div class="comments-section" id="comments-${post.id}">
+            <div class="comment-form">
+                ${window.userSession?.currentUser?.avatar ? 
+                    `<div class="comment-avatar"><img src="${window.userSession.currentUser.avatar}" 
+                         alt="${window.userSession.currentUser.name || 'Usuário'}" 
+                         onerror="this.onerror=null;this.parentElement.className='comment-avatar default';this.parentElement.innerHTML='${window.userSession.currentUser.name?.charAt(0) || 'U'}'"></div>` : 
+                    `<div class="comment-avatar default">${window.userSession.currentUser?.name?.charAt(0) || 'U'}</div>`}
+                <input type="text" class="comment-input" id="comment-input-${post.id}" 
+                       placeholder="Escreva um comentário..." 
+                       onkeypress="if(event.key === 'Enter') blog.addComment('${post.id}')">
+            </div>
+            <div class="comments-container" id="comments-container-${post.id}"></div>
+        </div>
+    `;
+}
+
+    /**
+     * Configura eventos para os posts
+     */
+    setupPostEvents() {
+        // Todos os eventos são tratados via onclick nos elementos
+    }
+
+    /**
+     * Manipula o upload de imagem
+     */
     handleImageUpload(event) {
         const file = event.target.files[0];
         if (!file) return;
 
-        // Verificações de imagem
+        // Verificações
         if (!file.type.match('image.*')) {
-            this.showNotification('Por favor, selecione um arquivo de imagem válido', 'error');
+            this.showNotification('Por favor, selecione um arquivo de imagem válido (JPEG, PNG, etc.)', 'error');
             return;
         }
 
@@ -2321,23 +2248,30 @@ function checkUserLoggedIn() {
         const reader = new FileReader();
         
         reader.onload = (e) => {
-            // Comprimir a imagem antes de armazenar
-            this.compressImage(e.target.result, 0.7).then(compressedImage => {
-                this.selectedImage = compressedImage;
-                document.getElementById('preview-image').src = this.selectedImage;
-                document.getElementById('image-preview').style.display = 'block';
-            });
+            if (e.target.result && typeof e.target.result === 'string') {
+                this.compressImage(e.target.result, 0.7).then(compressedImage => {
+                    this.selectedImage = compressedImage;
+                    document.getElementById('preview-image').src = this.selectedImage;
+                    document.getElementById('image-preview').style.display = 'block';
+                }).catch(error => {
+                    console.error('Erro ao comprimir imagem:', error);
+                    this.showNotification('Erro ao processar a imagem', 'error');
+                });
+            } else {
+                this.showNotification('Erro ao processar a imagem', 'error');
+            }
         };
         
         reader.onerror = () => {
-            this.showNotification('Erro ao ler a imagem', 'error');
+            this.showNotification('Erro ao ler o arquivo de imagem', 'error');
         };
         
         reader.readAsDataURL(file);
     }
 
-
-      // Função para comprimir imagens
+    /**
+     * Comprime uma imagem
+     */
     compressImage(src, quality = 0.7) {
         return new Promise((resolve, reject) => {
             const img = new Image();
@@ -2376,441 +2310,228 @@ function checkUserLoggedIn() {
         });
     }
 
-editPost(postId, newContent, newImage) {
-    if (!this.isAdmin) return false;
-    
-    const post = this.posts.find(p => p.id === postId);
-    if (post) {
-        post.content = newContent || post.content;
-        post.image = newImage !== undefined ? newImage : post.image;
-        post.edited = true;
-        post.lastEdited = Date.now();
-        this.savePosts();
-        this.renderPosts();
-        return true;
-    }
-    return false;
-}
-
-   loadUserData() {
-    try {
-        // Verifica se o usuário está logado
-        const isLoggedIn = checkUserLoggedIn();
-        const userInfoSection = document.getElementById('user-info-section');
-        
-        if (!isLoggedIn) {
-            // Esconde a seção de informações do usuário
-            if (userInfoSection) userInfoSection.style.display = 'none';
-            return;
-        } else {
-            // Mostra a seção de informações do usuário
-            if (userInfoSection) userInfoSection.style.display = 'flex';
-        }
-
-        // Tenta pegar os dados do usuário do localStorage
-        const userBasicInfo = JSON.parse(localStorage.getItem('ravenStudioUserBasicInfo'));
-        
-        this.currentUser = {
-            name: (userBasicInfo && userBasicInfo.name) ? userBasicInfo.name : 'Usuário',
-            avatar: (userBasicInfo && userBasicInfo.avatar) || null,
-            isAdmin: (userBasicInfo && userBasicInfo.isAdmin) || false
-        };
-        
-        this.loadCurrentUser();
-    } catch (e) {
-        console.error("Erro ao carregar dados do usuário:", e);
-        this.currentUser = { 
-            name: 'Usuário', 
-            avatar: null,
-            isAdmin: false
-        };
-        this.loadCurrentUser();
-    }
-}
-
-
-
-loadCurrentUser() {
-    const userContainer = document.getElementById('user-info-container');
-    const userAvatar = document.getElementById('current-user-avatar');
-    const userName = document.getElementById('current-user-name');
-    const adminToggle = document.getElementById('admin-toggle');
-    
-    // Verifica se o usuário está logado
-    if (!window.userSession || !window.userSession.isLoggedIn()) {
-        userContainer.style.display = 'none';
-        return;
-    }
-    
-    // Carrega os dados do usuário
-    const userData = JSON.parse(localStorage.getItem('ravenStudioUserBasicInfo')) || {};
-    
-    // Configurações para admin
-    this.isAdmin = window.userSession.isAdmin();
-    
-    if (this.isAdmin) {
-        // Configura o avatar do admin (Raven Studio)
-        userAvatar.innerHTML = `
-            <img src="/img/Logo.png" alt="Raven Studio" 
-                 style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-        `;
-        
-        // Configura o nome
-        userName.textContent = 'Raven Studio';
-        userName.classList.add('admin');
-        
-        // Configura o botão de admin
-        adminToggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: ON';
-        adminToggle.classList.add('active');
-        adminToggle.style.display = 'flex';
-        
-        // Mostra o formulário de posts
-        document.getElementById('new-post-form').classList.add('show');
-    } else {
-        // Configurações para usuários normais
-        const user = window.userSession.currentUser;
-        const userInitial = userData.name ? userData.name.charAt(0).toUpperCase() : 'U';
-        
-        if (userData.avatar && userData.avatar.startsWith('data:image')) {
-            userAvatar.innerHTML = `
-                <img src="${userData.avatar}" alt="${userData.name || 'Usuário'}" 
-                     style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-            `;
-        } else {
-            userAvatar.innerHTML = `
-                <div style="width: 100%; height: 100%; 
-                            background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%); 
-                            border-radius: 50%; 
-                            display: flex; 
-                            align-items: center; 
-                            justify-content: center;
-                            color: #000;
-                            font-weight: bold;">
-                    ${userInitial}
-                </div>
-            `;
-        }
-        
-        userName.textContent = userData.name || 'Usuário';
-        userName.classList.remove('admin');
-        adminToggle.style.display = 'none';
-    }
-    
-    userContainer.style.display = 'flex';
-}
-
-
-           getDefaultPosts() {
-    return [
-        {
-            id: 'post1',
-            user: 'Raven Studio',
-            avatar: 'https://example.com/raven-avatar.png', // Adicione uma URL para o avatar do admin
-            content: 'Acabamos de terminar uma peça incrível! Arte blackwork com elementos geométricos. O que vocês acham dessa tendência?',
-            image: 'https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=600',
-            timestamp: Date.now() - 3600000,
-            likes: 24,
-            comments: [
-                {
-                    id: 'comment1',
-                    user: 'João Silva',
-                    avatar: null,
-                    content: 'Ficou incrível! Quando posso agendar uma sessão?',
-                    timestamp: Date.now() - 3000000
-                }
-            ],
-            liked: false
-        }
-    ];
-}
-            toggleAdmin() {
-                this.isAdmin = !this.isAdmin;
-                const toggle = document.getElementById('admin-toggle');
-                const form = document.getElementById('new-post-form');
-                
-                if (this.isAdmin) {
-                    toggle.classList.add('active');
-                    toggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: ON';
-                    form.classList.add('show');
-                } else {
-                    toggle.classList.remove('active');
-                    toggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: OFF';
-                    form.classList.remove('show');
-                }
-            }
-
-
-
-// Adicione estas funções à sua classe RavenBlog
-handleImageUpload(event) {
-    const file = event.target.files[0];
-    if (!file) return;
-
-    // Verificações mais robustas
-    if (!file.type.match('image.*')) {
-        this.showNotification('Por favor, selecione um arquivo de imagem válido (JPEG, PNG, etc.)', 'error');
-        return;
-    }
-
-    if (file.size > this.MAX_IMAGE_SIZE) {
-        this.showNotification(`A imagem deve ter menos de ${this.MAX_IMAGE_SIZE/1024/1024}MB`, 'error');
-        return;
-    }
-
-    const reader = new FileReader();
-    
-    reader.onload = (e) => {
-        // Verifica se o resultado é válido
-        if (e.target.result && typeof e.target.result === 'string') {
-            this.selectedImage = e.target.result;
-            document.getElementById('preview-image').src = this.selectedImage;
-            document.getElementById('image-preview').style.display = 'block';
-            console.log("Imagem carregada com sucesso:", this.selectedImage.substring(0, 50) + "...");
-        } else {
-            this.showNotification('Erro ao processar a imagem', 'error');
-        }
-    };
-    
-    reader.onerror = () => {
-        this.showNotification('Erro ao ler o arquivo de imagem', 'error');
-    };
-    
-    reader.readAsDataURL(file);
-}
-
-debugAdminStatus() {
-    console.group("Debug de Status de Admin");
-    console.log("Usuário atual:", window.userSession?.currentUser);
-    console.log("É admin?", window.userSession?.isAdmin());
-    console.log("Token de admin válido?", localStorage.getItem('adminToken'));
-    console.groupEnd();
-}
-
-verifyImageUpload() {
-    console.group("Verificação de Upload de Imagem");
-    console.log("Imagem selecionada:", this.selectedImage ? 
-        this.selectedImage.substring(0, 50) + "..." : "Nenhuma");
-    console.log("Tipo da imagem:", typeof this.selectedImage);
-    console.groupEnd();
-}
-
-
-
+    /**
+     * Remove a imagem selecionada
+     */
     removeImage() {
         this.selectedImage = null;
         document.getElementById('preview-image').src = '#';
         document.getElementById('image-preview').style.display = 'none';
         document.getElementById('image-input').value = '';
-        console.log('Imagem removida');
-    }
-   // Atualize a função createPost
-    async createPost() {
-        try {
-            if (!window.userSession || !window.userSession.isAdmin()) {
-                throw new Error("Acesso negado: usuário não é administrador");
-            }
-
-            const content = document.getElementById('post-content').value.trim();
-            const hasImage = this.selectedImage && 
-                            (typeof this.selectedImage === 'string') && 
-                            this.selectedImage.startsWith('data:image');
-
-            if (!content && !hasImage) {
-                throw new Error("O post precisa conter texto ou imagem");
-            }
-
-            const response = await fetch('http://localhost/trabalhofinal/finalmente/api/blog.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${window.userSession.currentUser.id}`
-                },
-                body: JSON.stringify({
-                    action: 'create_post',
-                    content: content,
-                    image: hasImage ? this.selectedImage : null
-                })
-            });
-
-            const data = await response.json();
-
-            if (data.success) {
-                // Recarregar posts
-                this.currentPage = 1;
-                this.hasMorePosts = true;
-                document.getElementById('posts-feed').innerHTML = '';
-                this.loadPosts();
-                
-                // Limpar formulário
-                document.getElementById('post-content').value = '';
-                this.removeImage();
-                
-                this.showNotification('Post publicado com sucesso!');
-            } else {
-                throw new Error(data.message || 'Erro ao criar post');
-            }
-        } catch (error) {
-            console.error("Erro ao criar post:", error);
-            this.showNotification(error.message, 'error');
-        }
     }
 
-clearOldPosts() {
+    /**
+     * Cria um novo post
+     */
+async createPost() {
     try {
-        // Manter apenas os 20 posts mais recentes
-        if (this.posts.length > 20) {
-            this.posts = this.posts.slice(0, 20);
-            this.savePosts();
-        }
-    } catch (e) {
-        console.error("Erro ao limpar posts antigos:", e);
-    }
-}
-debugAdminStatus() {
-    console.group("Debug de Status de Admin");
-    console.log("Usuário atual:", window.userSession?.currentUser);
-    console.log("É admin?", window.userSession?.isAdmin());
-    console.log("Token de admin válido?", localStorage.getItem('adminToken'));
-    console.groupEnd();
-}
-
-verifyImageUpload() {
-    console.group("Verificação de Upload de Imagem");
-    console.log("Imagem selecionada:", this.selectedImage ? 
-        this.selectedImage.substring(0, 50) + "..." : "Nenhuma");
-    console.log("Tipo da imagem:", typeof this.selectedImage);
-    console.groupEnd();
-}
-
-
-  
-            openImageModal(imageSrc) {
-                document.getElementById('modal-image').src = imageSrc;
-                document.getElementById('image-modal').style.display = 'block';
-            }
-
-            closeImageModal() {
-                document.getElementById('image-modal').style.display = 'none';
-            }
-
-getUserAvatar(user, avatar) {
-    try {
-        // Verifica se user existe e é uma string não vazia
-        const userName = (user && typeof user === 'string') ? user : 'Usuário';
-        const userInitial = userName.charAt(0).toUpperCase();
-        
-        if (avatar && typeof avatar === 'string' && avatar.trim() !== '') {
-            return `<div class="post-avatar"><img src="${avatar}" alt="${userName}" onerror="this.onerror=null;this.parentElement.className='post-avatar default';this.parentElement.innerHTML='${userInitial}'"></div>`;
-        }
-        return `<div class="post-avatar default">${userInitial}</div>`;
-    } catch (e) {
-        console.error("Erro ao renderizar avatar:", e);
-        return `<div class="post-avatar default">U</div>`;
-    }
-}
-
-    async toggleLike(postId) {
+        // Verificação robusta de autenticação e permissões
         if (!window.userSession || !window.userSession.isLoggedIn()) {
-            this.showNotification('Por favor, faça login para curtir posts.');
-            window.location.href = '/pages/login.html';
+            this.showNotification('Por favor, faça login para criar posts.', 'error');
+            setTimeout(() => window.location.href = '/pages/login.html', 1500);
             return;
         }
 
-        try {
-            const response = await fetch('http://localhost/trabalhofinal/finalmente/api/blog.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${window.userSession.currentUser.id}`
-                },
-                body: JSON.stringify({
-                    action: 'toggle_like',
-                    post_id: postId
-                })
-            });
-
-            const data = await response.json();
-
-            if (data.success) {
-                // Atualizar contador de likes
-                const likeButton = document.querySelector(`.post-action[onclick="blog.toggleLike('${postId}')"]`);
-                if (likeButton) {
-                    likeButton.innerHTML = `<i class="fas fa-heart"></i> ${data.likesCount}`;
-                    
-                    // Alternar classe "liked"
-                    if (data.message.includes('removido')) {
-                        likeButton.classList.remove('liked');
-                    } else {
-                        likeButton.classList.add('liked');
-                    }
-                }
-            } else {
-                throw new Error(data.message || 'Erro ao curtir post');
-            }
-        } catch (error) {
-            console.error('Erro ao curtir post:', error);
-            this.showNotification(`Erro: ${error.message}`, 'error');
-        }
-    }
-
-    async addComment(postId) {
-        const input = document.getElementById(`comment-input-${postId}`);
-        const content = input.value.trim();
-        
-        if (!content) {
-            this.showNotification('Digite um comentário antes de enviar!');
+        if (!window.userSession.isAdmin()) {
+            this.showNotification('Apenas administradores podem criar posts.', 'error');
             return;
         }
 
-        if (!window.userSession || !window.userSession.isLoggedIn()) {
-            this.showNotification('Por favor, faça login para comentar.');
+        const postContent = document.getElementById('post-content');
+        if (!postContent) {
+            throw new Error('Elemento do post não encontrado');
+        }
+
+        const content = postContent.value.trim();
+        const hasImage = this.selectedImage && 
+                        typeof this.selectedImage === 'string' && 
+                        this.selectedImage.startsWith('data:image');
+
+        // Validação do conteúdo
+        if (!content && !hasImage) {
+            this.showNotification('O post precisa conter texto ou imagem.', 'error');
+            return;
+        }
+
+        // Mostrar estado de carregamento
+        const postBtn = document.querySelector('.post-btn');
+        if (postBtn) {
+            postBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Publicando...';
+            postBtn.disabled = true;
+        }
+
+        // Preparar dados para a API
+        const postData = {
+            action: 'create_post',
+            content: content || null,
+            image: hasImage ? this.selectedImage : null
+        };
+
+        // Debug: Mostrar dados que serão enviados
+        console.log('Dados do post a ser enviado:', postData);
+
+        const response = await fetch(this.API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${window.userSession.currentUser.id}`
+            },
+            body: JSON.stringify(postData)
+        });
+
+        // Verificar se a resposta é JSON válido
+        const responseText = await response.text();
+        let data;
+        
+        try {
+            data = JSON.parse(responseText);
+        } catch (e) {
+            console.error('Resposta não é JSON válido:', responseText);
+            throw new Error('Resposta inválida do servidor');
+        }
+
+        // Debug: Mostrar resposta da API
+        console.log('Resposta da API:', data);
+
+        if (!response.ok || !data.success) {
+            throw new Error(data.message || `Erro HTTP! status: ${response.status}`);
+        }
+
+        // Sucesso!
+        this.showNotification('Post publicado com sucesso!');
+        
+        // Resetar formulário
+        postContent.value = '';
+        this.removeImage();
+        
+        // Recarregar posts
+        this.currentPage = 1;
+        this.hasMorePosts = true;
+        document.getElementById('posts-feed').innerHTML = '';
+        await this.loadPosts();
+
+    } catch (error) {
+        console.error('Erro ao criar post:', error);
+        this.showNotification(`Erro: ${error.message}`, 'error');
+        
+        // Debug adicional
+        if (error.response) {
+            console.error('Detalhes do erro:', await error.response.text());
+        }
+    } finally {
+        // Restaurar botão
+        const postBtn = document.querySelector('.post-btn');
+        if (postBtn) {
+            postBtn.innerHTML = 'PUBLICAR';
+            postBtn.disabled = false;
+        }
+    }
+}
+
+    /**
+     * Alterna o like em um post
+     */
+async toggleLike(postId) {
+    // Verificação robusta de autenticação
+    if (!window.userSession || !window.userSession.isLoggedIn()) {
+        this.showNotification('Por favor, faça login para curtir posts.', 'error');
+        setTimeout(() => window.location.href = '/pages/login.html', 1500);
+        return;
+    }
+
+    try {
+        const likeButton = document.querySelector(`.post-action[onclick="blog.toggleLike('${postId}')"]`);
+        if (likeButton) {
+            likeButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+            likeButton.disabled = true;
+        }
+
+        const response = await fetch(this.API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${window.userSession.currentUser.id}`
+            },
+            body: JSON.stringify({
+                action: 'toggle_like',
+                post_id: postId
+            })
+        });
+
+        // Verificar se a resposta é JSON válido
+        const responseText = await response.text();
+        let data;
+        
+        try {
+            data = JSON.parse(responseText);
+        } catch (e) {
+            console.error('Resposta não é JSON válido:', responseText);
+            throw new Error('Resposta inválida do servidor');
+        }
+
+        if (!response.ok || !data.success) {
+            throw new Error(data.message || `Erro HTTP! status: ${response.status}`);
+        }
+
+        // Atualizar visualmente o botão de like
+        if (likeButton) {
+            likeButton.innerHTML = `<i class="fas fa-heart"></i> ${data.likesCount}`;
+            likeButton.disabled = false;
+            
+            // Alternar classe de like
+            if (data.action === 'added') {
+                likeButton.classList.add('liked');
+            } else {
+                likeButton.classList.remove('liked');
+            }
+        }
+
+        // Feedback visual
+        const message = data.action === 'added' ? 'Post curtido!' : 'Like removido';
+        this.showNotification(message);
+
+    } catch (error) {
+        console.error('Erro ao curtir post:', error);
+        this.showNotification(`Erro: ${error.message}`, 'error');
+        
+        // Restaurar botão em caso de erro
+        const likeButton = document.querySelector(`.post-action[onclick="blog.toggleLike('${postId}')"]`);
+        if (likeButton) {
+            const likesCount = likeButton.textContent.match(/\d+/) || '0';
+            likeButton.innerHTML = `<i class="fas fa-heart"></i> ${likesCount}`;
+            likeButton.disabled = false;
+        }
+    }
+}
+
+    /**
+     * Alterna a visibilidade dos comentários
+     */
+    toggleComments(postId) {
+        const commentsSection = document.getElementById(`comments-${postId}`);
+        if (!commentsSection) return;
+        
+        // Alternar visibilidade
+        commentsSection.classList.toggle('show');
+        
+        // Se estiver sendo mostrado, carregar comentários
+        if (commentsSection.classList.contains('show')) {
+            this.loadComments(postId);
+            
+            // Focar no campo de comentário após um pequeno delay
             setTimeout(() => {
-                window.location.href = '/pages/login.html';
-            }, 1500);
-            return;
-        }
-
-        try {
-            const response = await fetch('http://localhost/trabalhofinal/finalmente/api/blog.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${window.userSession.currentUser.id}`
-                },
-                body: JSON.stringify({
-                    action: 'add_comment',
-                    post_id: postId,
-                    content: content
-                })
-            });
-
-            const data = await response.json();
-
-            if (data.success) {
-                // Recarregar comentários
-                this.loadComments(postId);
-                
-                // Limpar input e manter a seção aberta
-                input.value = '';
-                const commentsSection = document.getElementById(`comments-${postId}`);
-                if (commentsSection) {
-                    setTimeout(() => {
-                        commentsSection.scrollTop = commentsSection.scrollHeight;
-                    }, 100);
-                }
-
-                this.showNotification('Comentário adicionado!');
-            } else {
-                throw new Error(data.message || 'Erro ao adicionar comentário');
-            }
-        } catch (error) {
-            console.error('Erro ao adicionar comentário:', error);
-            this.showNotification(`Erro: ${error.message}`, 'error');
+                const input = document.getElementById(`comment-input-${postId}`);
+                if (input) input.focus();
+            }, 100);
         }
     }
-        async loadComments(postId) {
+
+    /**
+     * Carrega os comentários de um post
+     */
+    async loadComments(postId) {
         try {
-            const response = await fetch('http://localhost/trabalhofinal/finalmente/api/blog.php', {
+            const response = await fetch(this.API_URL, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -2820,6 +2541,10 @@ getUserAvatar(user, avatar) {
                     post_id: postId
                 })
             });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
 
             const data = await response.json();
 
@@ -2838,20 +2563,211 @@ getUserAvatar(user, avatar) {
                             </div>
                         </div>
                     `).join('');
+
+                    // Rolagem para o final
+                    setTimeout(() => {
+                        commentsContainer.scrollTop = commentsContainer.scrollHeight;
+                    }, 50);
                 }
+            } else {
+                throw new Error(data.message || 'Erro ao carregar comentários');
             }
         } catch (error) {
             console.error('Erro ao carregar comentários:', error);
         }
     }
-    renderPosts(posts) {
-        const container = document.getElementById('posts-feed');
-        if (!container) return;
 
-        // Verificação robusta de login
-        const isLoggedIn = window.userSession?.isLoggedIn();
+    /**
+     * Adiciona um comentário a um post
+     */
+    async addComment(postId) {
+        const input = document.getElementById(`comment-input-${postId}`);
+        if (!input) return;
         
-        if (!isLoggedIn) {
+        const content = input.value.trim();
+        
+        if (!content) {
+            this.showNotification('Digite um comentário antes de enviar!');
+            return;
+        }
+
+        if (!window.userSession || !window.userSession.isLoggedIn()) {
+            this.showNotification('Por favor, faça login para comentar.');
+            setTimeout(() => {
+                window.location.href = '/pages/login.html';
+            }, 1500);
+            return;
+        }
+
+        try {
+            // Desabilitar input durante o envio
+            input.disabled = true;
+            
+            const response = await fetch(this.API_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.userSession.currentUser.id}`
+                },
+                body: JSON.stringify({
+                    action: 'add_comment',
+                    post_id: postId,
+                    content: content
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+
+            if (data.success) {
+                // Recarregar comentários
+                await this.loadComments(postId);
+                
+                // Limpar input
+                input.value = '';
+                
+                this.showNotification('Comentário adicionado!');
+            } else {
+                throw new Error(data.message || 'Erro ao adicionar comentário');
+            }
+        } catch (error) {
+            console.error('Erro ao adicionar comentário:', error);
+            this.showNotification(`Erro: ${error.message}`, 'error');
+        } finally {
+            // Reabilitar input
+            input.disabled = false;
+        }
+    }
+
+    /**
+     * Compartilha um post
+     */
+    sharePost(postId) {
+        if (navigator.share) {
+            navigator.share({
+                title: 'Confira este post do Raven Studio',
+                text: 'Veja este post interessante sobre tatuagens!',
+                url: `${window.location.origin}/pages/blog.html?post=${postId}`
+            }).catch(error => {
+                console.log('Erro ao compartilhar:', error);
+                this.showNotification('Navegador não suporta compartilhamento nativo. Copie o link manualmente.');
+            });
+        } else {
+            // Fallback para navegadores que não suportam Web Share API
+            const url = `${window.location.origin}/pages/blog.html?post=${postId}`;
+            navigator.clipboard.writeText(url).then(() => {
+                this.showNotification('Link copiado para a área de transferência!');
+            }).catch(() => {
+                prompt('Copie o link para compartilhar:', url);
+            });
+        }
+    }
+
+    /**
+     * Abre o modal de imagem
+     */
+    openImageModal(imageSrc) {
+        const modal = document.getElementById('image-modal');
+        const modalImage = document.getElementById('modal-image');
+        
+        if (modal && modalImage) {
+            modalImage.src = imageSrc;
+            modal.style.display = 'block';
+            
+            // Fechar modal ao pressionar ESC
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    this.closeImageModal();
+                }
+            });
+        }
+    }
+
+    /**
+     * Fecha o modal de imagem
+     */
+    closeImageModal() {
+        const modal = document.getElementById('image-modal');
+        if (modal) modal.style.display = 'none';
+    }
+
+    /**
+     * Mostra uma notificação
+     */
+    showNotification(message, type = 'success') {
+        const colors = {
+            success: 'linear-gradient(135deg, #3b82f6, #22c55e)',
+            error: 'linear-gradient(135deg, #ef4444, #dc2626)',
+            warning: 'linear-gradient(135deg, #f59e0b, #d97706)'
+        };
+        
+        const notification = document.createElement('div');
+        notification.className = 'notification';
+        notification.style.cssText = `
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background: ${colors[type] || colors.success};
+            color: #000;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.2rem;
+            animation: slideIn 0.3s ease-out;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        `;
+        
+        const icon = type === 'error' ? 'fa-exclamation-circle' : 
+                    type === 'warning' ? 'fa-exclamation-triangle' : 'fa-check-circle';
+        
+        notification.innerHTML = `
+            <i class="fas ${icon}"></i>
+            <span>${message}</span>
+        `;
+        
+        document.body.appendChild(notification);
+        
+        setTimeout(() => {
+            notification.style.animation = 'slideOut 0.3s ease-out';
+            setTimeout(() => notification.remove(), 300);
+        }, 3000);
+    }
+
+    /**
+     * Calcula o tempo decorrido de forma legível
+     */
+    getTimeAgo(timestamp) {
+        const date = new Date(timestamp);
+        const now = new Date();
+        const diff = (now - date) / 1000; // Diferença em segundos
+        
+        if (diff < 60) return 'agora';
+        if (diff < 3600) return `${Math.floor(diff / 60)}min`;
+        if (diff < 86400) return `${Math.floor(diff / 3600)}h`;
+        if (diff < 604800) return `${Math.floor(diff / 86400)}d`;
+        
+        // Para datas mais antigas, mostrar a data completa
+        return date.toLocaleDateString('pt-BR', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+        });
+    }
+}
+
+// Inicializa o blog quando o DOM estiver carregado
+document.addEventListener('DOMContentLoaded', function() {
+    // Verifica se o usuário está logado
+    if (!window.userSession || !window.userSession.isLoggedIn()) {
+        const container = document.getElementById('posts-feed');
+        if (container) {
             container.innerHTML = `
                 <div class="empty-feed">
                     <i class="fas fa-lock"></i>
@@ -2860,291 +2776,64 @@ getUserAvatar(user, avatar) {
                     <a href="/pages/login.html" class="login-btn">Fazer Login</a>
                 </div>
             `;
-            return;
         }
-
-        if (posts.length === 0 && container.innerHTML === '') {
-            container.innerHTML = `
-                <div class="empty-feed">
-                    <i class="fas fa-rss"></i>
-                    <h3>Nenhum post ainda</h3>
-                    <p>Seja o primeiro a compartilhar algo interessante!</p>
-                </div>
-            `;
-            return;
-        }
-
-        posts.forEach(post => {
-            // Verificar se o post já existe no DOM para evitar duplicatas
-            if (document.getElementById(`post-${post.id}`)) return;
-
-            const postDate = new Date(post.created_at);
-            const timeAgo = this.getTimeAgo(postDate);
-            const userInitials = post.first_name.charAt(0) + post.last_name.charAt(0);
-            
-            // Verificar se o usuário atual curtiu este post
-            const isLiked = false; // Isso precisaria ser verificado com uma chamada adicional à API
-
-            const postElement = document.createElement('article');
-            postElement.className = 'post-card';
-            postElement.id = `post-${post.id}`;
-            postElement.innerHTML = `
-                <header class="post-header">
-                    ${post.avatar ? 
-                        `<div class="post-avatar"><img src="${post.avatar}" alt="${post.first_name} ${post.last_name}"></div>` : 
-                        `<div class="post-avatar default">${userInitials}</div>`}
-                    <div class="post-user-info">
-                        <div class="post-username">${post.first_name} ${post.last_name}</div>
-                        <div class="post-time">${timeAgo}</div>
-                    </div>
-                </header>
-                
-                <div class="post-content">
-                    ${post.content ? `<p class="post-text">${post.content}</p>` : ''}
-                    ${post.image ? `
-                        <img src="${post.image}" class="post-image" 
-                             onclick="blog.openImageModal('${post.image}')"
-                             onerror="this.style.display='none'">
-                    ` : ''}
-                </div>
-                
-                <footer class="post-footer">
-                    <button class="post-action ${isLiked ? 'liked' : ''}" onclick="blog.toggleLike('${post.id}')">
-                        <i class="fas fa-heart"></i> ${post.likes_count}
-                    </button>
-                    <button class="post-action" onclick="blog.toggleComments('${post.id}')">
-                        <i class="fas fa-comment"></i> ${post.comments_count}
-                    </button>
-                    <button class="post-action">
-                        <i class="fas fa-share"></i> Compartilhar
-                    </button>
-                </footer>
-                
-                <div class="comments-section" id="comments-${post.id}">
-                    <div class="comment-form">
-                        ${window.userSession.currentUser.avatar ? 
-                            `<div class="comment-avatar"><img src="${window.userSession.currentUser.avatar}" alt="${window.userSession.currentUser.name}"></div>` : 
-                            `<div class="comment-avatar default">${window.userSession.currentUser.name.charAt(0)}</div>`}
-                        <input type="text" class="comment-input" id="comment-input-${post.id}" 
-                               placeholder="Escreva um comentário..." 
-                               onkeypress="if(event.key === 'Enter') blog.addComment('${post.id}')">
-                    </div>
-                    <div class="comments-container" id="comments-container-${post.id}"></div>
-                </div>
-            `;
-
-            container.appendChild(postElement);
-        });
+        return;
     }
-
-toggleComments(postId) {
-    const commentsSection = document.getElementById(`comments-${postId}`);
-    if (!commentsSection) return;
     
-    // Alternar a classe 'show' para expandir/recolher
-    commentsSection.classList.toggle('show');
-    
-    // Se estiver sendo mostrado, focar no campo de comentário
-    if (commentsSection.classList.contains('show')) {
-        setTimeout(() => {
-            const input = document.getElementById(`comment-input-${postId}`);
-            if (input) input.focus();
-            
-            // Rolagem automática para o final dos comentários
-            commentsSection.scrollTop = commentsSection.scrollHeight;
-        }, 100);
-    }
-}
-            getTimeAgo(timestamp) {
-                const now = Date.now();
-                const diff = now - timestamp;
-                const minutes = Math.floor(diff / 60000);
-                const hours = Math.floor(diff / 3600000);
-                const days = Math.floor(diff / 86400000);
-
-                if (days > 0) return `${days}d`;
-                if (hours > 0) return `${hours}h`;
-                if (minutes > 0) return `${minutes}min`;
-                return 'agora';
-            }
-
-        
-  // Modifique a função savePosts para limpar posts antigos
-    savePosts() {
-        try {
-            // Limitar o número de posts armazenados
-            if (this.posts.length > 50) {
-                this.posts = this.posts.slice(0, 50);
-            }
-            
-            localStorage.setItem('ravenStudioPosts', JSON.stringify(this.posts));
-        } catch (e) {
-            console.error('Erro ao salvar posts:', e);
-            this.showNotification('Erro ao salvar posts. O navegador pode estar sem espaço.', 'error');
-            
-            // Tentativa de recuperação - remover posts mais antigos
-            if (e.name === 'QuotaExceededError') {
-                this.posts = this.posts.slice(0, Math.floor(this.posts.length * 0.7));
-                this.savePosts();
-            }
-        }
-    }
-            showNotification(message) {
-                const notification = document.createElement('div');
-                notification.style.cssText = `
-                    position: fixed;
-                    top: 80px;
-                    right: 20px;
-                    background: linear-gradient(135deg, #3b82f6, #22c55e);
-                    color: #000;
-                    padding: 1rem 2rem;
-                    border-radius: 10px;
-                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-                    z-index: 1000;
-                    font-family: 'Bebas Neue', cursive;
-                    font-size: 1.2rem;
-                    animation: slideIn 0.3s ease-out;
-                `;
-                notification.innerHTML = `<i class="fas fa-check-circle"></i> ${message}`;
-                document.body.appendChild(notification);
-
-                setTimeout(() => {
-                    notification.style.animation = 'slideOut 0.3s ease-out';
-                    setTimeout(() => notification.remove(), 300);
-                }, 3000);
-            }
-
-setupEventListeners() {
-    document.getElementById('admin-toggle').addEventListener('click', () => {
-        this.toggleAdmin();
-    });
-
-    document.getElementById('image-input').addEventListener('change', (e) => {
-        this.handleImageUpload(e);
-    });
-    
-    document.querySelector('.post-btn').addEventListener('click', (e) => {
-        e.preventDefault();
-        this.createPost();
-    });
-
-    // Configuração do emoji picker
-    const emojiButton = document.getElementById('emoji-btn');
-    const emojiPicker = document.querySelector('emoji-picker');
-    const postContent = document.getElementById('post-content');
-
-    if (emojiButton && emojiPicker && postContent) {
-        // Posicionamento inicial do picker (fora da tela)
-        emojiPicker.style.position = 'absolute';
-        emojiPicker.style.display = 'none';
-        emojiPicker.style.zIndex = '1000';
-        
-        // Mostrar/ocultar o picker de emojis
-        emojiButton.addEventListener('click', (e) => {
-            e.stopPropagation();
-            
-            // Posicionar o picker perto do botão
-            const rect = emojiButton.getBoundingClientRect();
-            emojiPicker.style.display = emojiPicker.style.display === 'none' ? 'block' : 'none';
-            emojiPicker.style.top = `${rect.bottom + window.scrollY + 5}px`;
-            emojiPicker.style.left = `${rect.left + window.scrollX - 300}px`; // Ajuste para não cortar na lateral
-            
-            // Adicionar classe ativa ao botão
-            emojiButton.classList.toggle('active');
-        });
-
-        // Inserir emoji no texto quando selecionado
-        emojiPicker.addEventListener('emoji-click', (event) => {
-            const emoji = event.detail.unicode;
-            const cursorPos = postContent.selectionStart;
-            const textBefore = postContent.value.substring(0, cursorPos);
-            const textAfter = postContent.value.substring(cursorPos);
-            
-            postContent.value = textBefore + emoji + textAfter;
-            
-            // Reposicionar o cursor
-            postContent.selectionStart = cursorPos + emoji.length;
-            postContent.selectionEnd = cursorPos + emoji.length;
-            postContent.focus();
-            
-            // Fechar o picker após seleção
-            emojiPicker.style.display = 'none';
-            emojiButton.classList.remove('active');
-        });
-
-        // Fechar o picker ao clicar fora
-        document.addEventListener('click', (e) => {
-            if (!emojiPicker.contains(e.target)) {
-                emojiPicker.style.display = 'none';
-                emojiButton.classList.remove('active');
-            }
-        });
-    }
-}
-
-        }
-
-        // Adicionar estilos de animação
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes slideIn {
-                from { transform: translateX(100%); opacity: 0; }
-                to { transform: translateX(0); opacity: 1; }
-            }
-            @keyframes slideOut {
-                from { transform: translateX(0); opacity: 1; }
-                to { transform: translateX(100%); opacity: 0; }
-            }
-        `;
-        document.head.appendChild(style);
-
-
-// Substitua o evento DOMContentLoaded atual por este:
-document.addEventListener('DOMContentLoaded', function() {
-
-
-
     // Inicializa o blog
     window.blog = new RavenBlog();
-    
-    // Verifica o status de login de forma robusta
-   
-    const blogHeader = document.querySelector('.blog-header');
-    const postsFeed = document.getElementById('posts-feed');
-    const userInfo = document.querySelector('.user-info');
-    const newPostForm = document.getElementById('new-post-form');
-    
-  // Verifica se o usuário está logado
-    const isLoggedIn = checkUserLoggedIn() || localStorage.getItem('ravenStudioUserBasicInfo');
-    
-    if (!isLoggedIn) {
-        // Redireciona para login ou mostra mensagem
-        window.location.href = '/pages/login.html';
-        return;
-    } else {
-        // Mostra conteúdo para usuários logados
-        blogHeader.innerHTML = `
-            <h1>RAVEN STUDIO BLOG</h1>
-            <p>Arte, técnicas e novidades do mundo da tatuagem</p>
-        `;
-        if (postsFeed) postsFeed.style.display = 'block';
-        if (userInfo) userInfo.style.display = 'flex';
-        
-        // Renderiza os posts
-        blog.renderPosts();
-        
-        // Verifica se é admin (opcional)
-        if (blog.currentUser && blog.currentUser.isAdmin) {
-            if (newPostForm) newPostForm.style.display = 'block';
-        }
+});
+
+// Adiciona estilos de animação dinamicamente
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes slideIn {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
     }
-});
-
-
-     // Inicializar o blog quando o DOM estiver carregado
-document.addEventListener('DOMContentLoaded', function() {
-    window.blog = new RavenBlog();
-});
+    @keyframes slideOut {
+        from { transform: translateX(0); opacity: 1; }
+        to { transform: translateX(100%); opacity: 0; }
+    }
+    
+    .loading-indicator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        color: #3b82f6;
+    }
+    
+    .spinner {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    
+    .double-bounce1, .double-bounce2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #3b82f6;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: sk-bounce 2.0s infinite ease-in-out;
+    }
+    
+    .double-bounce2 {
+        animation-delay: -1.0s;
+    }
+    
+    @keyframes sk-bounce {
+        0%, 100% { transform: scale(0.0); }
+        50% { transform: scale(1.0); }
+    }
+`;
+document.head.appendChild(style);
     </script>
 
     <!-- Adicionar o picker de emojis (no final do body) -->
@@ -3152,18 +2841,41 @@ document.addEventListener('DOMContentLoaded', function() {
 </body>
 </html>
 
-<?php
-// blog.php
 
-// Configurações iniciais (similar ao auth.php)
+<?php
+// blog.php - API para o sistema de blog
+// Configuração de erro detalhada (apenas para desenvolvimento)
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
+// Log de erros
+set_error_handler(function($errno, $errstr, $errfile, $errline) {
+    file_put_contents('php_errors.log', 
+        date('Y-m-d H:i:s') . " - [$errno] $errstr in $errfile on line $errline\n", 
+        FILE_APPEND
+    );
+});
+
+// Log de exceções
+set_exception_handler(function($e) {
+    file_put_contents('php_exceptions.log', 
+        date('Y-m-d H:i:s') . " - " . $e->getMessage() . " in " . $e->getFile() . " on line " . $e->getLine() . "\n", 
+        FILE_APPEND
+    );
+    sendError("Erro interno do servidor", 500);
+});
+// Configurações iniciais
+header("Content-Type: application/json; charset=UTF-8");
+ini_set('display_errors', 0);
+error_reporting(E_ALL);
+
+// Configuração de CORS
 $allowedOrigins = [
+    "http://localhost",
+    "http://127.0.0.1",
     "http://127.0.0.1:5500",
-    "http://127.0.0.1:5501", 
-    "http://127.0.0.1:5502",
-    "http://localhost"
+    "http://127.0.0.1:5501",
+    "http://127.0.0.1:5502"
 ];
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
@@ -3171,290 +2883,420 @@ $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 if (in_array($origin, $allowedOrigins)) {
     header("Access-Control-Allow-Origin: " . $origin);
 }
-header("Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE");
+
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
 header("Access-Control-Allow-Credentials: true");
-header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Max-Age: 3600");
 
-function sendError($message, $code = 400) {
-    http_response_code($code);
-    die(json_encode(['success' => false, 'message' => $message]));
-}
-
+// Responder imediatamente para requisições OPTIONS
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     http_response_code(200);
     exit();
 }
 
-require_once 'conexao.php';
+// Funções auxiliares
+function sendResponse($data, $statusCode = 200) {
+    http_response_code($statusCode);
+    echo json_encode($data);
+    exit();
+}
 
-// Obter token de autenticação
-function getAuthToken() {
+function sendError($message, $statusCode = 400) {
+    sendResponse([
+        'success' => false,
+        'message' => $message
+    ], $statusCode);
+}
+
+function getAuthorizationToken() {
     $headers = getallheaders();
-    $authHeader = $headers['Authorization'] ?? '';
     
-    if (empty($authHeader) || !preg_match('/Bearer\s(\S+)/', $authHeader, $matches)) {
+    if (!isset($headers['Authorization'])) {
+        return null;
+    }
+    
+    $authHeader = $headers['Authorization'];
+    
+    if (!preg_match('/Bearer\s(\S+)/', $authHeader, $matches)) {
         return null;
     }
     
     return $matches[1];
 }
 
-// Verificar se usuário é admin
-function isAdmin($conn, $userId) {
-    $stmt = $conn->prepare("SELECT isAdmin FROM users WHERE id = ?");
+function validateUser($conn, $userId) {
+    $stmt = $conn->prepare("SELECT id, isAdmin FROM users WHERE id = ?");
     $stmt->execute([$userId]);
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    return $user && $user['isAdmin'] == 1;
+    return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-// Obter dados JSON da requisição
-$input = json_decode(file_get_contents('php://input'), true);
-
-if (json_last_error() !== JSON_ERROR_NONE) {
-    sendError('Dados JSON inválidos');
-}
-
-if (empty($input['action'])) {
-    sendError('Parâmetro "action" não especificado');
-}
+// Conexão com o banco de dados
+require_once 'conexao.php';
 
 try {
-    $response = [];
+    // Verificar se a conexão foi estabelecida
+    if (!$conn) {
+        sendError("Erro na conexão com o banco de dados", 500);
+    }
+
+    // Obter dados da requisição
+    $input = json_decode(file_get_contents('php://input'), true);
     
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        sendError("Dados JSON inválidos");
+    }
+
+    if (empty($input['action'])) {
+        sendError("Ação não especificada");
+    }
+
+    // Processar ações
     switch ($input['action']) {
-        case 'create_post':
-            // Verificar autenticação
-            $token = getAuthToken();
-            if (!$token) {
-                sendError('Token de autenticação não fornecido', 401);
-            }
-            
-            // Verificar se é admin
-            $stmt = $conn->prepare("SELECT id FROM users WHERE id = ? AND isAdmin = 1");
-            $stmt->execute([$token]);
-            
-            if ($stmt->rowCount() === 0) {
-                sendError('Acesso negado: apenas administradores podem criar posts', 403);
-            }
-            
-            $adminId = $stmt->fetchColumn();
-            
-            // Validar campos
-            if (empty($input['content']) && empty($input['image'])) {
-                sendError('O post deve conter texto ou imagem');
-            }
-            
-            $content = !empty($input['content']) ? htmlspecialchars(trim($input['content'])) : null;
-            $image = !empty($input['image']) ? $input['image'] : null;
-            
-            // Inserir novo post
-            $stmt = $conn->prepare("INSERT INTO blog_posts (user_id, content, image) VALUES (?, ?, ?)");
-            $stmt->execute([$adminId, $content, $image]);
-            
-            $postId = $conn->lastInsertId();
-            
-            $response = [
-                'success' => true,
-                'message' => 'Post criado com sucesso',
-                'postId' => $postId
-            ];
-            break;
-            
         case 'get_posts':
-            $page = $input['page'] ?? 1;
-            $limit = 10;
-            $offset = ($page - 1) * $limit;
+            // Parâmetros de paginação
+            $page = isset($input['page']) ? (int)$input['page'] : 1;
+            $limit = isset($input['limit']) ? (int)$input['limit'] : 10;
             
-            // Obter posts com informações do autor
+            if ($page < 1) $page = 1;
+            if ($limit < 1 || $limit > 50) $limit = 10;
+            
+            $offset = ($page - 1) * $limit;
+
+            // Consulta para obter posts
             $stmt = $conn->prepare("
-                SELECT p.*, u.first_name, u.last_name, u.avatar,
-                (SELECT COUNT(*) FROM blog_likes WHERE post_id = p.id) AS likes_count,
-                (SELECT COUNT(*) FROM blog_comments WHERE post_id = p.id) AS comments_count
+                SELECT 
+                    p.id, 
+                    p.user_id, 
+                    p.content, 
+                    p.image, 
+                    p.created_at,
+                    u.first_name, 
+                    u.last_name, 
+                    u.avatar,
+                    (SELECT COUNT(*) FROM blog_likes WHERE post_id = p.id) AS likes_count,
+                    (SELECT COUNT(*) FROM blog_comments WHERE post_id = p.id) AS comments_count
                 FROM blog_posts p
                 JOIN users u ON p.user_id = u.id
                 ORDER BY p.created_at DESC
-                LIMIT ? OFFSET ?
+                LIMIT :limit OFFSET :offset
             ");
-            $stmt->execute([$limit, $offset]);
+            
+            $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
+            $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
+            $stmt->execute();
+            
             $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
             
-            $response = [
-                'success' => true,
-                'posts' => $posts
-            ];
-            break;
+            // Verificar se há mais posts
+            $stmt = $conn->prepare("SELECT COUNT(*) FROM blog_posts");
+            $stmt->execute();
+            $totalPosts = $stmt->fetchColumn();
+            $hasMore = ($totalPosts > ($offset + $limit));
             
+            sendResponse([
+                'success' => true,
+                'posts' => $posts,
+                'hasMore' => $hasMore,
+                'total' => $totalPosts
+            ]);
+            break;
+
+case 'create_post':
+    // Verificação robusta de autenticação
+    $userId = getAuthorizationToken();
+    if (!$userId) {
+        sendError("Token de autenticação não fornecido", 401);
+    }
+
+    // Verificar se usuário é admin
+    $stmt = $conn->prepare("SELECT isAdmin FROM users WHERE id = ?");
+    $stmt->execute([$userId]);
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if (!$user || !$user['isAdmin']) {
+        sendError("Apenas administradores podem criar posts", 403);
+    }
+
+    // Validação dos dados
+    if (!isset($input['content']) && !isset($input['image'])) {
+        sendError("O post deve conter texto ou imagem");
+    }
+
+    $content = isset($input['content']) ? trim($input['content']) : null;
+    $image = isset($input['image']) ? trim($input['image']) : null;
+
+    // Validação adicional
+    if ($content === "" && $image === null) {
+        sendError("O post deve conter texto ou imagem");
+    }
+
+    if ($content && mb_strlen($content) > 2000) {
+        sendError("O conteúdo do post não pode exceder 2000 caracteres");
+    }
+
+    if ($image && !filter_var($image, FILTER_VALIDATE_URL) && !str_starts_with($image, 'data:image')) {
+        sendError("Formato de imagem inválido");
+    }
+
+    // Inserir no banco de dados
+    try {
+        $stmt = $conn->prepare("
+            INSERT INTO blog_posts (user_id, content, image)
+            VALUES (:user_id, :content, :image)
+        ");
+        
+        $stmt->bindParam(':user_id', $userId);
+        $stmt->bindParam(':content', $content);
+        $stmt->bindParam(':image', $image);
+        
+        if (!$stmt->execute()) {
+            sendError("Erro ao criar post no banco de dados", 500);
+        }
+
+        // Obter dados completos do post criado
+        $postId = $conn->lastInsertId();
+        
+        $stmt = $conn->prepare("
+            SELECT 
+                p.id, 
+                p.user_id, 
+                p.content, 
+                p.image, 
+                p.created_at,
+                u.first_name, 
+                u.last_name, 
+                u.avatar,
+                0 AS likes_count,
+                0 AS comments_count
+            FROM blog_posts p
+            JOIN users u ON p.user_id = u.id
+            WHERE p.id = ?
+        ");
+        
+        $stmt->execute([$postId]);
+        $post = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        sendResponse([
+            'success' => true,
+            'message' => 'Post criado com sucesso',
+            'post' => $post
+        ]);
+
+    } catch (PDOException $e) {
+        // Verificar se é erro de duplicação
+        if (strpos($e->getMessage(), 'Duplicate entry') !== false) {
+            sendError("Este post já existe", 400);
+        }
+        sendError("Erro no banco de dados: " . $e->getMessage(), 500);
+    }
+    break;
+
+case 'toggle_like':
+    // Verificação robusta de autenticação
+    $userId = getAuthorizationToken();
+    if (!$userId) {
+        sendError("Token de autenticação não fornecido", 401);
+    }
+
+    // Validar post_id
+    if (empty($input['post_id'])) {
+        sendError("ID do post não fornecido");
+    }
+
+    $postId = $input['post_id'];
+
+    // Verificar se o post existe
+    $stmt = $conn->prepare("SELECT 1 FROM blog_posts WHERE id = ?");
+    $stmt->execute([$postId]);
+    
+    if ($stmt->rowCount() === 0) {
+        sendError("Post não encontrado", 404);
+    }
+
+    // Iniciar transação
+    $conn->beginTransaction();
+
+    try {
+        // Verificar se o like já existe (usando a coluna correta)
+        $stmt = $conn->prepare("SELECT 1 FROM blog_likes WHERE post_id = ? AND user_id = ?");
+        $stmt->execute([$postId, $userId]);
+        
+        if ($stmt->rowCount() > 0) {
+            // Remover like
+            $stmt = $conn->prepare("DELETE FROM blog_likes WHERE post_id = ? AND user_id = ?");
+            $stmt->execute([$postId, $userId]);
+            $action = 'removed';
+        } else {
+            // Adicionar like (assumindo que a tabela tem colunas post_id e user_id)
+            $stmt = $conn->prepare("INSERT INTO blog_likes (post_id, user_id) VALUES (?, ?)");
+            $stmt->execute([$postId, $userId]);
+            $action = 'added';
+        }
+
+        // Obter nova contagem de likes
+        $stmt = $conn->prepare("SELECT COUNT(*) FROM blog_likes WHERE post_id = ?");
+        $stmt->execute([$postId]);
+        $likesCount = (int)$stmt->fetchColumn();
+
+        $conn->commit();
+
+        sendResponse([
+            'success' => true,
+            'action' => $action,
+            'likesCount' => $likesCount
+        ]);
+
+    } catch (PDOException $e) {
+        $conn->rollBack();
+        sendError("Erro no banco de dados: " . $e->getMessage(), 500);
+    }
+    break;
+
         case 'add_comment':
             // Verificar autenticação
-            $token = getAuthToken();
-            if (!$token) {
-                sendError('Token de autenticação não fornecido', 401);
+            $userId = getAuthorizationToken();
+            
+            if (!$userId) {
+                sendError("Token de autenticação não fornecido", 401);
             }
             
-            if (empty($input['post_id']) || empty($input['content'])) {
-                sendError('Post ID e conteúdo são obrigatórios');
+            // Validar dados
+            if (empty($input['post_id'])) {
+                sendError("ID do post não fornecido");
             }
             
-            $content = htmlspecialchars(trim($input['content']));
+            if (empty($input['content'])) {
+                sendError("Conteúdo do comentário não fornecido");
+            }
             
-            // Verificar se post existe
+            $postId = $input['post_id'];
+            $content = trim($input['content']);
+            
+            // Validar tamanho do comentário
+            if (mb_strlen($content) > 500) {
+                sendError("O comentário não pode exceder 500 caracteres");
+            }
+            
+            // Verificar se o post existe
             $stmt = $conn->prepare("SELECT id FROM blog_posts WHERE id = ?");
-            $stmt->execute([$input['post_id']]);
+            $stmt->execute([$postId]);
             
             if ($stmt->rowCount() === 0) {
-                sendError('Post não encontrado', 404);
+                sendError("Post não encontrado", 404);
             }
             
             // Inserir comentário
-            $stmt = $conn->prepare("INSERT INTO blog_comments (post_id, user_id, content) VALUES (?, ?, ?)");
-            $stmt->execute([$input['post_id'], $token, $content]);
+            $stmt = $conn->prepare("
+                INSERT INTO blog_comments (post_id, user_id, content)
+                VALUES (?, ?, ?)
+            ");
             
-            $response = [
-                'success' => true,
-                'message' => 'Comentário adicionado com sucesso'
-            ];
-            break;
+            $stmt->execute([$postId, $userId, $content]);
             
-        case 'get_comments':
-            if (empty($input['post_id'])) {
-                sendError('Post ID é obrigatório');
-            }
+            // Obter dados completos do comentário
+            $commentId = $conn->lastInsertId();
             
             $stmt = $conn->prepare("
-                SELECT c.*, u.first_name, u.last_name, u.avatar
+                SELECT 
+                    c.id,
+                    c.post_id,
+                    c.user_id,
+                    c.content,
+                    c.created_at,
+                    u.first_name,
+                    u.last_name,
+                    u.avatar
+                FROM blog_comments c
+                JOIN users u ON c.user_id = u.id
+                WHERE c.id = ?
+            ");
+            
+            $stmt->execute([$commentId]);
+            $comment = $stmt->fetch(PDO::FETCH_ASSOC);
+            
+            sendResponse([
+                'success' => true,
+                'message' => 'Comentário adicionado com sucesso',
+                'comment' => $comment
+            ]);
+            break;
+
+        case 'get_comments':
+            // Validar post_id
+            if (empty($input['post_id'])) {
+                sendError("ID do post não fornecido");
+            }
+            
+            $postId = $input['post_id'];
+            
+            // Obter comentários
+            $stmt = $conn->prepare("
+                SELECT 
+                    c.id,
+                    c.post_id,
+                    c.user_id,
+                    c.content,
+                    c.created_at,
+                    u.first_name,
+                    u.last_name,
+                    u.avatar
                 FROM blog_comments c
                 JOIN users u ON c.user_id = u.id
                 WHERE c.post_id = ?
                 ORDER BY c.created_at DESC
             ");
-            $stmt->execute([$input['post_id']]);
+            
+            $stmt->execute([$postId]);
             $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
             
-            $response = [
+            sendResponse([
                 'success' => true,
                 'comments' => $comments
-            ];
+            ]);
             break;
-            
-        case 'toggle_like':
-            // Verificar autenticação
-            $token = getAuthToken();
-            if (!$token) {
-                sendError('Token de autenticação não fornecido', 401);
-            }
-            
-            if (empty($input['post_id'])) {
-                sendError('Post ID é obrigatório');
-            }
-            
-            // Verificar se post existe
-            $stmt = $conn->prepare("SELECT id FROM blog_posts WHERE id = ?");
-            $stmt->execute([$input['post_id']]);
-            
-            if ($stmt->rowCount() === 0) {
-                sendError('Post não encontrado', 404);
-            }
-            
-            // Verificar se já curtiu
-            $stmt = $conn->prepare("SELECT 1 FROM blog_likes WHERE post_id = ? AND user_id = ?");
-            $stmt->execute([$input['post_id'], $token]);
-            
-            if ($stmt->rowCount() > 0) {
-                // Remover like
-                $stmt = $conn->prepare("DELETE FROM blog_likes WHERE post_id = ? AND user_id = ?");
-                $stmt->execute([$input['post_id'], $token]);
-                $message = 'Like removido';
-            } else {
-                // Adicionar like
-                $stmt = $conn->prepare("INSERT INTO blog_likes (post_id, user_id) VALUES (?, ?)");
-                $stmt->execute([$input['post_id'], $token]);
-                $message = 'Post curtido';
-            }
-            
-            // Obter nova contagem de likes
-            $stmt = $conn->prepare("SELECT COUNT(*) FROM blog_likes WHERE post_id = ?");
-            $stmt->execute([$input['post_id']]);
-            $likesCount = $stmt->fetchColumn();
-            
-            $response = [
-                'success' => true,
-                'message' => $message,
-                'likesCount' => $likesCount
-            ];
-            break;
-            
+
         default:
-            sendError('Ação inválida');
+            sendError("Ação não reconhecida");
     }
-    
-    echo json_encode($response);
-    
+} catch (PDOException $e) {
+    sendError("Erro no banco de dados: " . $e->getMessage(), 500);
 } catch (Exception $e) {
-    sendError($e->getMessage());
+    sendError("Erro interno: " . $e->getMessage(), 500);
 }
 
-$conn = null;
-?>
 
--- Tabela para os posts do blog
-CREATE TABLE IF NOT EXISTS blog_posts (
-  id INT(11) NOT NULL AUTO_INCREMENT,
-  user_id INT(11) NOT NULL,
-  title VARCHAR(255) NOT NULL,
-  content TEXT NOT NULL,
-  image LONGTEXT DEFAULT NULL,
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-  updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(),
-  PRIMARY KEY (id),
-  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- Tabela para os comentários
-CREATE TABLE IF NOT EXISTS blog_comments (
-  id INT(11) NOT NULL AUTO_INCREMENT,
-  post_id INT(11) NOT NULL,
-  user_id INT(11) NOT NULL,
-  content TEXT NOT NULL,
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-  PRIMARY KEY (id),
-  FOREIGN KEY (post_id) REFERENCES blog_posts(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- Tabela para os likes
 CREATE TABLE IF NOT EXISTS blog_likes (
-  post_id INT(11) NOT NULL,
-  user_id INT(11) NOT NULL,
-  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-  PRIMARY KEY (post_id, user_id),
-  FOREIGN KEY (post_id) REFERENCES blog_posts(id) ON DELETE CASCADE,
-  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    post_id INT NOT NULL,
+    user_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (post_id) REFERENCES blog_posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_like (post_id, user_id)
+) ENGINE=InnoDB;
 
-USE raven_studio;
-
-CREATE TABLE IF NOT EXISTS appointments (
+CREATE TABLE IF NOT EXISTS posts (
     id INT(11) NOT NULL AUTO_INCREMENT,
     user_id INT(11) NOT NULL,
-    artist_id VARCHAR(50) NOT NULL,
-    artist_name VARCHAR(100) NOT NULL,
-    artist_image VARCHAR(255) DEFAULT NULL,
-    preferred_date1 DATE NOT NULL,
-    preferred_time1 TIME NOT NULL,
-    tattoo_style VARCHAR(50) NOT NULL,
-    tattoo_description TEXT NOT NULL,
-    budget DECIMAL(10,2) NOT NULL,
-    status ENUM('Pendente', 'Confirmado', 'Cancelado', 'Concluído') DEFAULT 'Pendente',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+    content TEXT NOT NULL,
+    image LONGTEXT DEFAULT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(),
     PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
-    INDEX (user_id),
-    INDEX (status)
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-ALTER TABLE appointments ADD INDEX idx_artist_date_time (artist_id, preferred_date1, preferred_time1);
+-- Tabela de comentários
+CREATE TABLE IF NOT EXISTS comments (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    post_id INT(11) NOT NULL,
+    user_id INT(11) NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+    PRIMARY KEY (id),
+    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-SELECT * FROM users WHERE email = 'ravenstudio@gmail.com';
+
