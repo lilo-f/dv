@@ -1,226 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Raven Studio</title>
-        <link rel="icon" href="/img/raven.ico" type="image/x-icon">
+    <title>Loja | Raven Studio</title>
+        <link rel="icon" href="../img/raven.ico" type="image/x-icon">
 
-    <meta name="description" content="Blog oficial do Raven Studio - Arte, técnicas e novidades do mundo da tatuagem">
+    <meta name="description" content="Loja oficial do Raven Studio - Os melhores produtos para tatuagem">
+    <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@400;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/navbar.css">
-
 
     <style>
-        
-        .form-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgba(59, 130, 246, 0.5);
-    background: rgba(15, 15, 15, 0.8);
-}
-
-.form-avatar-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    padding: 5px; /* Ajuste conforme necessário */
-}
-
-/* Mantenha o estilo existente para o nome */
-.form-username {
-    font-family: 'Teko', sans-serif;
-    color: white;
-    font-size: 1.3rem;
-    margin-bottom: 0.2rem;
-}
-/* Estilo para o emoji picker */
-emoji-picker {
-    --background: rgba(15, 15, 15, 0.95);
-    --border-color: rgba(59, 130, 246, 0.5);
-    --input-border-color: rgba(59, 130, 246, 0.3);
-    --input-font-color: #fff;
-    --category-emoji-padding: 0.5rem;
-    --font-family: 'Orbitron', sans-serif;
-    width: 350px;
-    height: 400px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    border: 1px solid var(--border-color);
-}
-
-@media (max-width: 480px) {
-    emoji-picker {
-        width: 280px;
-        height: 350px;
-        right: 10px !important;
-    }
-}
-
-/* Estilo para o botão de emoji quando ativo */
-.option-btn.active {
-    background: rgba(59, 130, 246, 0.2);
-    border-color: #3b82f6;
-    color: #3b82f6;
-}
-/* Container de comentários */
-.comments-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    max-height: 300px;
-    overflow-y: auto;
-    padding-right: 0.5rem;
-}
-
-/* Estilo individual do comentário */
-.comment {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    animation: fadeIn 0.3s ease-out;
-}
-
-.comment-content {
-    flex: 1;
-    background: rgba(30, 30, 30, 0.5);
-    padding: 1rem;
-    border-radius: 12px;
-    border-left: 3px solid #3b82f6;
-}
-
-.comment-user {
-    font-weight: bold;
-    color: #3b82f6;
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-}
-
-.comment-text {
-    color: #d1d5db;
-    font-size: 0.9rem;
-    line-height: 1.4;
-}
-
-.comment-time {
-    color: #6b7280;
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-    text-align: right;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-
-        .debug-info {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(0,0,0,0.8);
-    color: #3b82f6;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 12px;
-    z-index: 1000;
-}
-        .post-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.post-avatar.default {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
-    color: #000;
-    font-weight: bold;
-}
-        .user-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 15px;
-    background: rgba(15, 15, 15, 0.9);
-    border: 1px solid rgba(59, 130, 246, 0.5);
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-    position: fixed;
-    top: 70px;
-    right: 20px;
-    z-index: 100;
-}
-        .admin-toggle {
-    display: none; /* Inicialmente escondido */
-    align-items: center;
-    gap: 5px;
-    padding: 0.5rem 1rem;
-    background: none;
-    border: 1px solid rgba(59, 130, 246, 0.5);
-    border-radius: 20px;
-    color: #3b82f6;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 0.8rem;
-
-    transition: all 0.3s ease;
-}
-
-.admin-toggle.active {
-    display: flex; /* Mostra apenas quando ativo (admin) */
-    background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
-    color: #000;
-    font-weight: bold;
-}
-
-.user-name.admin {
-    color: #8a2be2;
-    font-weight: bold;
-    text-shadow: 0 0 5px rgba(138, 43, 226, 0.3);
-}
-        .user-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 15px;
-    background: rgba(15, 15, 15, 0.9);
-    border: 1px solid rgba(59, 130, 246, 0.5);
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-}
-
-.user-avatar {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.user-name {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 0.9rem;
-    color: #d1d5db;
-}
-        /* Estilos Premium para o Chatbot - INÍCIO */
+      /* Estilos Premium para o Chatbot - INÍCIO */
        .raven-chat-widget {
     /* Keep position and z-index as is */
     position: fixed;
@@ -248,7 +43,15 @@ emoji-picker {
             position: relative;
             z-index: 100;
         }
+.wishlist-btn.active {
+    color: #ef4444;
+    border-color: #ef4444;
+}
 
+.wishlist-btn:hover {
+    color: #ef4444;
+    border-color: #ef4444;
+}
         .raven-chat-toggle:hover {
             transform: scale(1.1) rotate(10deg);
             box-shadow: 0 15px 35px rgba(138, 43, 226, 0.6);
@@ -405,57 +208,6 @@ emoji-picker {
         .welcome-message {
             margin-bottom: 20px;
         }
-
-        .image-upload-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 12px;
-    background: rgba(30, 30, 30, 0.8);
-    border: 2px dashed rgba(59, 130, 246, 0.5);
-    border-radius: 12px;
-    color: #3b82f6;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.image-upload-btn:hover {
-    border-color: #3b82f6;
-    background: rgba(59, 130, 246, 0.1);
-}
-
-#image-preview {
-    display: none;
-    margin-top: 1rem;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    max-height: 300px;
-}
-
-#preview-image {
-    width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: contain;
-}
-
-#remove-image-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(239, 68, 68, 0.8);
-    border: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
         .bot-message {
             background: rgba(138, 43, 226, 0.15);
@@ -683,99 +435,55 @@ emoji-picker {
             }
         }
         /* Estilos Premium para o Chatbot - FIM */
-        .login-btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.8rem 2rem;
-    background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
-    border: none;
-    border-radius: 25px;
-    color: #000;
+        /* Estilo para os pontos */
+.points-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 215, 0, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    animation: pulse-gold 2s infinite;
+}
+
+.points-value {
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.1rem;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    letter-spacing: 1px;
-    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+    color: #FFD700;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
-.login-btn:hover {
-    background: #3b82f6;
-    transform: translateY(-2px);
-}
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-.comment-input {
-    flex: 1;
-    padding: 0.8rem 1rem;
-    background: rgba(30, 30, 30, 0.8);
-    border: 1px solid rgba(59, 130, 246, 0.3);
-    border-radius: 20px;
-    color: white;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
+.points-icon {
+    color: #FFD700;
+    font-size: 1.2rem;
+    animation: bounce 2s infinite;
 }
 
-/* Estilo para a barra de scroll */
-.comments-section::-webkit-scrollbar {
-    width: 6px;
+@keyframes pulse-gold {
+    0% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.2); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 215, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 215, 0, 0); }
 }
 
-.comments-section::-webkit-scrollbar-track {
-    background: rgba(30, 30, 30, 0.5);
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+        /* Efeitos de fundo */
+     
+        .shop-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #0a0a0a 0%, #000000 100%);
+    z-index: -2;
 }
 
-.comments-section::-webkit-scrollbar-thumb {
-    background-color: #3b82f6;
-    border-radius: 3px;
-}
-
-
-.comment-input:focus {
-    border-color: #3b82f6;
-    outline: none;
-    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
-}
-.comments-section {
-    max-height: 0;
-    overflow-y: auto; /* Adiciona scroll quando necessário */
-    transition: max-height 0.3s ease;
-    padding: 0 1.5rem;
-    border-top: 1px solid rgba(59, 130, 246, 0.2);
-}
-.comments-section.show {
-    max-height: 500px; /* Altura máxima expandida */
-    padding: 1rem 1.5rem;
-}
-.comments-section.show {
-    max-height: 500px;
-    padding: 1rem 1.5rem;
-    border-top: 1px solid rgba(59, 130, 246, 0.2);
-}
-        body {
-            font-family: 'Orbitron', sans-serif;
-            background: radial-gradient(ellipse at bottom, #0a0a0a 0%, #000000 100%);
-            color: white;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-
-        .blog-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(ellipse at bottom, #0a0a0a 0%, #000000 100%);
-            z-index: -2;
-        }
-
-        .blog-particles {
+        .shop-particles {
             position: fixed;
             top: 0;
             left: 0;
@@ -785,20 +493,22 @@ emoji-picker {
             opacity: 0.15;
         }
 
-        .blog-main {
+        /* Container principal */
+        .shop-main {
             min-height: 100vh;
             padding: 100px 2rem 2rem;
             position: relative;
-            max-width: 600px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 
-        .blog-header {
+        /* Cabeçalho */
+        .shop-header {
             text-align: center;
             margin-bottom: 3rem;
         }
 
-        .blog-header h1 {
+        .shop-header h1 {
             font-family: 'Bebas Neue', cursive;
             font-size: 3.5rem;
             color: #3b82f6;
@@ -807,552 +517,646 @@ emoji-picker {
             margin-bottom: 0.5rem;
         }
 
-        .blog-header p {
+        .shop-header p {
             color: #d1d5db;
             font-family: 'Orbitron', sans-serif;
             font-size: 1rem;
             letter-spacing: 0.5px;
+            max-width: 700px;
+            margin: 0 auto;
         }
 
-.user-info {
-      top: 4.5rem; 
-    
-    position: fixed;
-    top: 120px; /* Aumentei de 20px para 70px */
-    right: 20px;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.8rem 1.5rem;
-    background: rgba(15, 15, 15, 0.9);
-    border: 1px solid rgba(59, 130, 246, 0.5);
-    border-radius: 25px;
-    backdrop-filter: blur(10px);
-    z-index: 100;
-}
+        /* Layout da loja */
+        .shop-content {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 2.5rem;
+        }
 
-        .user-avatar {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
+        /* Filtros */
+        .shop-filters {
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            backdrop-filter: blur(10px);
+            height: fit-content;
+            position: sticky;
+            top: 120px;
+            transition: all 0.5s ease;
+        }
+
+        .shop-filters:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 10px 40px rgba(59, 130, 246, 0.4);
+        }
+
+        .filter-group {
+            margin-bottom: 2rem;
+        }
+
+        .filter-group h3 {
+            font-family: 'Teko', sans-serif;
+            color: #3b82f6;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .filter-option {
             display: flex;
             align-items: center;
-            justify-content: center;
-            color: #000;
-            font-weight: bold;
-            font-size: 0.9rem;
+            gap: 0.8rem;
         }
 
-        .user-name {
+        .filter-option input {
+            accent-color: #3b82f6;
+        }
+
+        .filter-option label {
+            font-family: 'Orbitron', sans-serif;
+            color: #d1d5db;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-option label:hover {
+            color: #3b82f6;
+        }
+
+        .price-range {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .price-values {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.5rem;
+            font-family: 'Orbitron', sans-serif;
             color: #d1d5db;
             font-size: 0.9rem;
         }
 
-        .admin-toggle {
-            background: none;
-            border: 1px solid rgba(59, 130, 246, 0.5);
-            border-radius: 20px;
-            color: #3b82f6;
-            font-family: 'Orbitron', sans-serif;
-            font-size: 0.8rem;
-         
-            padding: 0.5rem 1rem;
-            transition: all 0.3s ease;
+        .filter-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
         }
 
-        .admin-toggle.active {
+        .filter-btn {
+            flex: 1;
+            padding: 0.8rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+            color: #3b82f6;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .filter-btn:hover {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+        }
+
+        .filter-btn.apply {
             background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
             color: #000;
             font-weight: bold;
         }
 
-        .new-post-form {
+        .filter-btn.apply:hover {
+            background: #3b82f6;
+        }
+
+        /* Produtos */
+        .shop-products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
             background: rgba(15, 15, 15, 0.9);
-            border-radius: 20px;
-            padding: 2rem;
-            margin-bottom: 2rem;
+            border-radius: 15px;
+            overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(59, 130, 246, 0.3);
             backdrop-filter: blur(10px);
-            display: none;
-            transition: all 0.3s ease;
-        }
-
-        .new-post-form.show {
-            display: block;
-        }
-
-        .post-form-header {
+            transition: all 0.5s ease;
             display: flex;
-            align-items: center;
-            gap: 1rem;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            border-color: #3b82f6;
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
+            color: #000;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            z-index: 2;
+        }
+
+        .product-image {
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.5s ease;
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.1);
+        }
+
+        .product-info {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-category {
+            font-family: 'Orbitron', sans-serif;
+            color: #3b82f6;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .product-title {
+            font-family: 'Teko', sans-serif;
+            color: white;
+            font-size: 1.8rem;
+            margin-bottom: 0.8rem;
+            line-height: 1;
+        }
+
+        .product-description {
+            font-family: 'Orbitron', sans-serif;
+            color: #d1d5db;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .product-price {
+            font-family: 'Bebas Neue', cursive;
+            color: white;
+            font-size: 1.8rem;
             margin-bottom: 1.5rem;
         }
 
-        .form-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+        .product-price .old-price {
+            text-decoration: line-through;
+            color: #d1d5db;
+            font-size: 1.2rem;
+            margin-left: 0.5rem;
+            opacity: 0.7;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .add-to-cart {
+            flex: 1;
+            padding: 0.8rem;
             background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
+            border: none;
+            border-radius: 8px;
+            color: #000;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #000;
-            font-weight: bold;
+            gap: 0.5rem;
+        }
+
+        .add-to-cart:hover {
+            background: #3b82f6;
+            transform: translateY(-2px);
+        }
+
+        .wishlist-btn {
+            width: 45px;
+            height: 45px;
+            background: rgba(30, 30, 30, 0.8);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+            border-radius: 8px;
+            color: #3b82f6;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-size: 1.2rem;
         }
 
-        .form-user-info {
-            flex: 1;
+        .wishlist-btn:hover {
+            background: rgba(59, 130, 246, 0.1);
+            border-color: #3b82f6;
+            color: #ef4444;
         }
 
-        .form-username {
-            font-family: 'Teko', sans-serif;
-            color: white;
-            font-size: 1.3rem;
-            margin-bottom: 0.2rem;
+        .wishlist-btn.active {
+            color: #ef4444;
+            border-color: #ef4444;
         }
 
-        .form-time {
-            color: #6b7280;
-            font-size: 0.8rem;
+        /* Controles da loja */
+        .shop-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            grid-column: 1 / -1;
         }
 
-        .form-group {
-            margin-bottom: 1.5rem;
+        .search-box {
+            position: relative;
+            flex-grow: 1;
+            max-width: 400px;
         }
 
-        .form-group textarea {
-            width: 100%;
-            min-height: 120px;
-            padding: 1rem;
+        .search-box input {
+            width: 100%; /* Garante que o input ocupe toda a largura do pai */
+            padding: 0.8rem 1rem 0.8rem 3rem;
             background: rgba(30, 30, 30, 0.8);
             border: 1px solid rgba(59, 130, 246, 0.5);
-            border-radius: 12px;
+            border-radius: 8px;
             color: white;
             font-family: 'Orbitron', sans-serif;
-            resize: vertical;
-            font-size: 0.95rem;
-            line-height: 1.5;
+            font-size: 0.9rem;
             transition: all 0.3s ease;
+            box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura */
         }
 
-        .form-group textarea:focus {
+        .search-box input:focus {
             border-color: #3b82f6;
             box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
             outline: none;
         }
 
-        .form-group textarea::placeholder {
-            color: #6b7280;
+        .search-box i {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #3b82f6;
         }
 
-        .image-upload {
-            position: relative;
-            margin-bottom: 1.5rem;
-        }
-
-        .image-upload input[type="file"] {
-            display: none;
-        }
-
-        .image-upload-btn {
+        .sort-options {
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 0.8rem;
-            width: 100%;
-            padding: 1rem;
-            background: rgba(30, 30, 30, 0.8);
-            border: 2px dashed rgba(59, 130, 246, 0.5);
-            border-radius: 12px;
-            color: #3b82f6;
-            cursor: pointer;
-            transition: all 0.3s ease;
+            gap: 1rem;
+        }
+
+        .sort-options label {
             font-family: 'Orbitron', sans-serif;
+            color: #d1d5db;
             font-size: 0.9rem;
         }
 
-        .image-upload-btn:hover {
-            border-color: #3b82f6;
-            background: rgba(59, 130, 246, 0.1);
-        }
-
-        .image-preview {
-            margin-top: 1rem;
-            border-radius: 12px;
-            overflow: hidden;
-            position: relative;
-            display: none;
-        }
-
-        .image-preview img {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-        }
-
-        .remove-image {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 30px;
-            height: 30px;
-            background: rgba(239, 68, 68, 0.8);
-            border: none;
-            border-radius: 50%;
+        .sort-options select {
+            padding: 0.8rem 1rem;
+            background: rgba(30, 30, 30, 0.8);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+            border-radius: 8px;
             color: white;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
             cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             transition: all 0.3s ease;
         }
 
-        .remove-image:hover {
-            background: #ef4444;
+        .sort-options select:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+            outline: none;
         }
 
-        .post-actions {
+        /* Paginação */
+        .pagination {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 1rem;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 3rem;
+            grid-column: 1 / -1;
         }
 
-        .post-options {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .option-btn {
+        .page-btn {
             width: 40px;
             height: 40px;
             background: rgba(30, 30, 30, 0.8);
             border: 1px solid rgba(59, 130, 246, 0.5);
-            border-radius: 50%;
-            color: #3b82f6;
+            border-radius: 8px;
+            color: #d1d5db;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
             cursor: pointer;
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.1rem;
         }
 
-        .option-btn:hover {
+        .page-btn:hover {
             background: rgba(59, 130, 246, 0.1);
+            border-color: #3b82f6;
+            color: white;
+        }
+
+        .page-btn.active {
+            background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
+            border-color: transparent;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .page-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        /* Botão para abrir o filtro no mobile */
+        .filter-toggle-btn {
+            display: none; /* Escondido por padrão em desktop */
+            padding: 0.8rem 1.2rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+            color: #3b82f6;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .filter-toggle-btn:hover {
+            background: rgba(59, 130, 246, 0.2);
             border-color: #3b82f6;
         }
 
-        .post-btn {
-            padding: 0.8rem 2rem;
-            background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
-            border: none;
-            border-radius: 25px;
-            color: #000;
-            font-family: 'Bebas Neue', cursive;
-            font-size: 1.1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            letter-spacing: 1px;
-            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
-        }
-
-        .post-btn:hover {
-            background: #3b82f6;
-            transform: translateY(-2px);
-        }
-
-        .posts-feed {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .post-card {
-            background: rgba(15, 15, 15, 0.9);
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(59, 130, 246, 0.3);
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            margin-bottom: 25px;
-        }
-
-        .post-card:hover {
-            border-color: rgba(59, 130, 246, 0.6);
-        }
-
-        .post-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            padding: 1.5rem 1.5rem 1rem;
-        }
-
-        .post-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 2px solid rgba(59, 130, 246, 0.3);
-        }
-
-        .post-avatar img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .post-avatar.default {
-            background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #000;
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-
-        .post-user-info {
-            flex: 1;
-        }
-
-        .post-username {
-            font-family: 'Teko', sans-serif;
-            color: white;
-            font-size: 1.3rem;
-            margin-bottom: 0.2rem;
-        }
-
-        .post-time {
-            color: #6b7280;
-            font-size: 0.8rem;
-        }
-
-        .post-content {
-            padding: 0 1.5rem 1rem;
-        }
-
-        .post-text {
-            color: #d1d5db;
-            line-height: 1.6;
-            margin-bottom: 1rem;
-            font-size: 0.95rem;
-        }
-
-        .post-image {
-            width: 100%;
-            max-height: 500px;
-            object-fit: cover;
-            border-radius: 12px;
-            margin-bottom: 1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .post-image:hover {
-            transform: scale(1.02);
-        }
-
-        .post-footer {
-            display: flex;
-            justify-content: space-around;
-            padding: 1rem 1.5rem;
-            border-top: 1px solid rgba(59, 130, 246, 0.2);
-        }
-
-        .post-action {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+        /* Botão para fechar o filtro no mobile */
+        .filter-close-btn {
             background: none;
             border: none;
-            color: #6b7280;
+            color: #d1d5db;
+            font-size: 1.5rem;
             cursor: pointer;
-            transition: all 0.3s ease;
-            font-family: 'Orbitron', sans-serif;
-            font-size: 0.9rem;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 1002; /* Acima do overlay */
         }
-
-        .post-action:hover {
-            background: rgba(59, 130, 246, 0.1);
+        .filter-close-btn:hover {
             color: #3b82f6;
         }
 
-        .post-action.liked {
-            color: #ef4444;
-        }
-
-        .post-action.liked:hover {
-            color: #dc2626;
-        }
-
-        .comments-section {
-            padding: 0 1.5rem 1.5rem;
-            border-top: 1px solid rgba(59, 130, 246, 0.2);
-            margin-top: 1rem;
-            display: none;
-        }
-
-        .comments-section.show {
-            display: block;
-        }
-
-        .comment-form {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .comment-avatar {
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 1px solid rgba(59, 130, 246, 0.3);
-        }
-
-        .comment-avatar img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .comment-avatar.default {
-            background: rgba(59, 130, 246, 0.3);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #3b82f6;
-            font-size: 0.9rem;
-            font-weight: bold;
-        }
-
-        .comment-input {
-            flex: 1;
-            padding: 0.8rem;
-            background: rgba(30, 30, 30, 0.8);
-            border: 1px solid rgba(59, 130, 246, 0.3);
-            border-radius: 20px;
-            color: white;
-            font-family: 'Orbitron', sans-serif;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .comment-input:focus {
-            border-color: #3b82f6;
-            outline: none;
-        }
-
-        .comment {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .comment-content {
-            flex: 1;
-            background: rgba(30, 30, 30, 0.5);
-            padding: 1rem;
-            border-radius: 12px;
-        }
-
-        .comment-user {
-            font-weight: bold;
-            color: #3b82f6;
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        .comment-text {
-            color: #d1d5db;
-            font-size: 0.9rem;
-            line-height: 1.4;
-        }
-
-        .comment-time {
-            color: #6b7280;
-            font-size: 0.8rem;
-            margin-top: 0.5rem;
-        }
-
-        .empty-feed {
-            text-align: center;
-            padding: 4rem 0;
-        }
-
-        .empty-feed i {
-            font-size: 4rem;
-            color: rgba(59, 130, 246, 0.5);
-            margin-bottom: 2rem;
-        }
-
-        .empty-feed h3 {
-            font-family: 'Bebas Neue', cursive;
-            color: white;
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .empty-feed p {
-            color: #d1d5db;
-        }
-
-        .image-modal {
-            display: none;
+        /* Overlay para o filtro mobile */
+        #filter-overlay {
             position: fixed;
-            z-index: 1000;
-            left: 0;
             top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            backdrop-filter: blur(5px);
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 999; /* Abaixo do filtro, acima do conteúdo */
+            display: none; /* Escondido por padrão */
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+        }
+        #filter-overlay.active {
+            display: block;
+            opacity: 1;
         }
 
-        .image-modal-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 90%;
-            max-height: 90%;
+        /* Responsivo */
+        @media (max-width: 1024px) {
+            .shop-content {
+                /* Changed to allow products full width or smaller columns, filters are off-canvas now */
+                grid-template-columns: 1fr; /* Products take full width, filters are not in grid flow here */
+                gap: 1.5rem; /* Reduced gap for mobile */
+            }
+
+            .shop-filters {
+                /* Default desktop styles for filters apply until 768px. Below, it becomes off-canvas */
+                position: sticky; /* Revert to sticky for grid flow */
+                top: 100px;
+                margin-bottom: 0;
+                padding: 1rem;
+                border-radius: 15px;
+                box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+                width: auto;
+                max-width: none;
+            }
+
+            .shop-products {
+                /* Make products smaller and allow two per row */
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 1rem; /* Smaller gap between products */
+            }
+
+            /* Adjust product card font sizes for smaller cards */
+            .product-card .product-title {
+                font-size: 1.5rem; /* Smaller title */
+            }
+            .product-card .product-description {
+                font-size: 0.8rem; /* Smaller description */
+            }
+            .product-card .product-price {
+                font-size: 1.5rem; /* Smaller price */
+            }
+            .product-card .add-to-cart {
+                font-size: 1rem; /* Smaller button text */
+                padding: 0.6rem; /* Smaller button padding */
+            }
+            .product-card .wishlist-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+            .product-card .product-image {
+                height: 180px; /* Smaller image height */
+            }
+            .product-card .product-info {
+                padding: 1rem; /* Smaller padding inside product info */
+            }
+
+            .shop-controls {
+                flex-direction: column;
+                gap: 1.5rem;
+                align-items: stretch;
+            }
+
+            .search-box {
+                max-width: 100%;
+            }
+            .sort-options {
+                flex-direction: column;
+                align-items: stretch;
+            }
         }
 
-        .image-modal img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
+        @media (max-width: 768px) {
+            .shop-main {
+                padding: 80px 1rem 1rem;
+            }
+
+            .shop-header h1 {
+                font-size: 2.5rem;
+            }
+
+            /* Filtro off-canvas para mobile */
+            .shop-filters {
+                position: fixed; /* Fixa o filtro na tela */
+                top: 60px; /* Alterado: Começa abaixo da navbar */
+                left: -300px; /* Esconde o filtro fora da tela */
+                bottom: 0;
+                width: 280px; /* Largura do painel do filtro */
+                z-index: 1001; /* Acima do overlay */
+                background: rgba(15, 15, 15, 0.98); /* Fundo mais opaco para o off-canvas */
+                padding: 2rem 1.5rem; /* Padding interno */
+                box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+                border-radius: 0 15px 15px 0; /* Apenas no lado direito */
+                transition: left 0.3s ease-out, opacity 0.3s ease-out; /* Transição suave */
+                opacity: 0; /* Escondido por padrão */
+                visibility: hidden; /* Garante que não é interativo quando escondido */
+                display: flex; /* Para flex-direction column dos grupos */
+                flex-direction: column;
+                overflow-y: auto; /* Para rolagem se o conteúdo for muito grande */
+                height: 790px;
+            }
+
+            .shop-filters.active {
+                left: 0; /* Mostra o filtro */
+                opacity: 1;
+                visibility: visible;
+            }
+            
+            /* Ajustes internos do filtro para mobile (agora dentro do off-canvas) */
+            .shop-filters .filter-group {
+                margin-bottom: 1.5rem; /* Ajustado para o off-canvas */
+            }
+
+            .shop-filters .filter-group h3 {
+                font-size: 1.4rem; /* Um pouco maior que o ajuste anterior, para legibilidade no off-canvas */
+                margin-bottom: 0.8rem;
+            }
+
+            .shop-filters .filter-option label {
+                font-size: 0.9rem;
+            }
+
+            .shop-filters .filter-btn {
+                padding: 0.7rem;
+                font-size: 0.9rem;
+            }
+            
+            /* Botão de toggle do filtro visível em mobile */
+            .filter-toggle-btn {
+                display: flex; /* Mostra o botão em mobile */
+                margin-bottom: 1rem; /* Espaço abaixo do botão */
+                width: 100%;
+            }
+
+            .shop-controls {
+                flex-direction: column; /* Coloca o botão de filtro, pesquisa e ordenação em colunas */
+                align-items: stretch; /* Estica os itens para a largura total */
+                gap: 1rem; /* Reduz o espaço entre os itens */
+            }
+
+            .shop-products {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Allow two smaller products */
+                gap: 1rem; /* Keep smaller gap */
+            }
+
+             .product-card .product-image {
+                height: 150px; /* Even smaller image height for very small screens */
+            }
+            .product-card .product-title {
+                font-size: 1.3rem;
+            }
+            .product-card .product-description {
+                font-size: 0.75rem;
+            }
+            .product-card .product-price {
+                font-size: 1.3rem;
+            }
+            .product-card .add-to-cart {
+                font-size: 0.9rem;
+                padding: 0.5rem;
+            }
+            .product-card .wishlist-btn {
+                width: 35px;
+                height: 35px;
+                font-size: 0.9rem;
+            }
         }
 
-        .close-modal {
-            position: absolute;
-            top: 20px;
+        /* --- Fim dos estilos da Navbar e Carrinho --- */
+
+        /* Animation styles for notifications */
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes slideOut {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
+        }
+        .notification {
+            position: fixed;
+            bottom: 20px;
             right: 20px;
+            background-color: #4CAF50; /* Green */
             color: white;
-            font-size: 2rem;
-            cursor: pointer;
-            background: rgba(0, 0, 0, 0.5);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            font-family: 'Orbitron', sans-serif;
+            animation: slideIn 0.3s ease-out forwards;
         }
-
-        .close-modal:hover {
-            background: rgba(0, 0, 0, 0.8);
+        .notification.error {
+            background-color: #f44336; /* Red */
         }
-       
+      
         /* Botão para voltar ao topo */
         .back-to-top {
             position: fixed;
@@ -1382,37 +1186,235 @@ emoji-picker {
         .back-to-top.show {
             display: flex;
         }
-.image-preview {
-    display: none;
-    margin-top: 1rem;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    max-height: 300px;
-}
 
-#preview-image {
-    width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: contain;
-}
+        /* Chat Widget Styles */
+        .chat-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
 
-.remove-image {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(239, 68, 68, 0.8);
-    border: none;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+        .chat-toggle {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #8a2be2, #4b0082);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 1.5rem;
+            border: none;
+        }
+
+        .chat-toggle:hover {
+            transform: scale(1.1);
+            background: linear-gradient(45deg, #4b0082, #8a2be2);
+        }
+
+        .chat-container {
+            position: absolute;
+            bottom: 80px;
+            right: 0;
+            width: 350px;
+            height: 450px;
+            background: #1a1a1a;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            display: none;
+            flex-direction: column;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        .chat-container.active {
+            display: flex;
+        }
+
+        .chat-header {
+            padding: 1rem;
+            background: linear-gradient(45deg, #4b0082, #8a2be2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .chat-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: white;
+        }
+
+        .chat-title i {
+            color: #fff;
+        }
+
+        .chat-title h4 {
+            font-size: 1rem;
+            margin: 0;
+            font-family: 'Teko', sans-serif;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .chat-title span {
+            font-size: 0.8rem;
+            color: #ccc;
+            font-family: 'Teko', sans-serif;
+        }
+
+        .chat-close {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+
+        .chat-content {
+            flex: 1;
+            padding: 1rem;
+            overflow-y: auto;
+            background-color: #121212;
+        }
+
+        .chat-categories p {
+            color: #ccc;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            font-family: 'Teko', sans-serif;
+        }
+
+        .category-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .category-btn {
+            padding: 0.75rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+            font-family: 'Teko', sans-serif;
+            font-size: 1.1rem;
+            border: none;
+        }
+
+        .category-btn:hover {
+            background: rgba(138, 43, 226, 0.3);
+        }
+
+        .back-button {
+            margin-bottom: 1rem;
+        }
+
+        .back-button button {
+            background: none;
+            border: none;
+            color: #8a2be2;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-family: 'Teko', sans-serif;
+            padding: 0;
+        }
+
+        .back-button button:hover {
+            text-decoration: underline;
+        }
+
+        .question-btn {
+            width: 100%;
+            padding: 0.75rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: left;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            border: none;
+            font-family: 'Teko', sans-serif;
+        }
+
+        .question-btn:hover {
+            background: rgba(138, 43, 226, 0.3);
+        }
+
+        .answer-content {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            color: #ccc;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .answer-content h5 {
+            color: #8a2be2;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            font-family: 'Teko', sans-serif;
+        }
+
+        .answer-content p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            font-family: 'Teko', sans-serif;
+        }
+
+        .btn-primary {
+            width: 100%;
+            background: linear-gradient(45deg, #8a2be2, #4b0082);
+            color: white;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            margin-top: 1rem;
+            font-family: 'Teko', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.02);
+            background: linear-gradient(45deg, #4b0082, #8a2be2);
+        }
+
+        #questions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        @media (max-width: 480px) {
+            .chat-container {
+                width: 280px;
+                right: -10px;
+            }
+            
+            .back-to-top {
+                left: 10px;
+                bottom: 10px;
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+        }
     
     </style>
 </head>
@@ -1422,18 +1424,18 @@ emoji-picker {
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-brand">
-                <img src="/img/Logo.png" alt="Raven Studio Logo" class="brand-logo">
+                <img src="../img/Logo.png" alt="Raven Studio Logo" class="brand-logo">
                 <span class="brand-text">RAVEN     </span>
             </a>
 
             <ul class="nav-menu" id="navMenu">
-     <li><a href="/pages/home.html" class="nav-link active"><i class="fas fa-home"></i> Início</a></li>
-                <li><a href="/pages/loja.html"  class="nav-link"><i class="fas fa-store"></i> Loja</a></li>
-                <li><a href="/pages/artists.html"  class="nav-link"><i class="fas fa-star"></i> Artistas</a></li>
-                <li ><a href="/pages/contato.html" class="nav-link"><i class="fas fa-envelope"></i> Contato</a></li>
-                <li ><a href="/pages/blog.html" class="nav-link active"><i class="fas fa-blog"></i> Blog</a></li>
-                <li ><a href="/pages/game.html"  class="nav-link"><i class="fas fa-gamepad"></i>Game</a></li>
-                <li > <a href="/pages/carrinho.html" class="nav-icon cart-icon" aria-label="Carrinho de Compras">
+     <li><a href="../pages/home.html" class="nav-link "><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="../pages/loja.html"  class="nav-link active"><i class="fas fa-store"></i> Loja</a></li>
+                <li><a href="../pages/artists.html"  class="nav-link"><i class="fas fa-star"></i> Artistas</a></li>
+                <li ><a href="../pages/contato.html" class="nav-link"><i class="fas fa-envelope"></i> Contato</a></li>
+                <li ><a href="../pages/blog.html" class="nav-link"><i class="fas fa-blog"></i> Blog</a></li>
+                <li ><a href="../pages/game.html"  class="nav-link"><i class="fas fa-gamepad"></i>Game</a></li>
+                <li > <a href="../pages/carrinho.html" class="nav-icon cart-icon" aria-label="Carrinho de Compras">
                     <i class="fas fa-shopping-cart"></i>
                     <span class="cart-count" id="cart-count">0</span>
                 </a></li>
@@ -1442,11 +1444,10 @@ emoji-picker {
             <div class="nav-icons">
                
                
-               <a href="/pages/user.html" id="user-nav-link" class="nav-icon user-icon">
-    <i class="fas fa-user-circle" id="nav-user-icon"></i>
-    <img src="" class="nav-user-avatar" id="nav-user-avatar" style="display: none;">
-</a>
-      
+                <a href="../pages/user.html" class="nav-icon user-icon" aria-label="Perfil do Usuário">
+                    <i class="fas fa-user-circle" id="nav-user-icon"></i>
+                    <img src="" alt="Avatar do Usuário" class="nav-user-avatar" id="nav-user-avatar" style="display: none;">
+                </a>
             </div>
 
             <button class="nav-toggle" id="navToggle" aria-label="Abrir Menu de Navegação">
@@ -1455,139 +1456,97 @@ emoji-picker {
         </div>
     </nav>
 </header>
-    <div class="blog-bg"></div>
-    <div class="blog-particles" id="particles-js"></div>
-    
-<div class="user-info" id="user-info-container">
-    <div class="user-avatar" id="current-user-avatar">
-        <!-- Avatar será preenchido pelo JavaScript -->
-    </div>
-    <div class="user-name" id="current-user-name">Carregando...</div>
-    <button class="admin-toggle" id="admin-toggle">
-        <i class="fas fa-user-shield"></i> Admin: ON
-    </button>
-</div>
-    <main class="blog-main">
-        <header class="blog-header">
-            <h1>RAVEN STUDIO BLOG</h1>
-            <p>Arte, técnicas e novidades do mundo da tatuagem</p>
+    <div class="shop-bg"></div>
+    <div class="shop-particles"></div>
+
+    <main class="shop-main">
+        <header class="shop-header">
+            <h1>Nossos Produtos</h1>
+            <p>Explore nossa vasta seleção de produtos de tatuagem, desde tintas vibrantes até máquinas de última geração e equipamentos de segurança. Encontre tudo o que você precisa para elevar sua arte.</p>
         </header>
-        
-        <!-- Formulário para novos posts (apenas admin) -->
-  
-<!-- Garanta que seu formulário tem esta estrutura -->
-<div class="new-post-form" id="new-post-form">
-    <div class="post-form-header">
-        <div class="form-avatar">
-            <img src="/img/Logo.png" alt="Raven Studio Logo" class="form-avatar-img">
-        </div>
-        <div class="form-user-info">
-            <div class="form-username">Raven Studio</div>
-            <div class="form-time">Agora</div>
-        </div>
-    </div>
-    
-    <div class="form-group">
-        <textarea id="post-content" placeholder="Compartilhe algo interessante sobre tatuagem..."></textarea>
-    </div>
-    
-    <div class="image-upload">
-        <input type="file" id="image-input" accept="image/*">
-        <label for="image-input" class="image-upload-btn">
-            <i class="fas fa-image"></i> Adicionar Foto
-        </label>
-        <div class="image-preview" id="image-preview">
-            <img id="preview-image" src="#" alt="Preview da imagem">
-            <button class="remove-image" id="remove-image-btn">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-    </div>
-    
-    <div class="post-actions">
-        <div class="post-options">
-            <button class="option-btn" id="emoji-btn" title="Adicionar emoji">
-                <i class="fas fa-smile"></i>
-            </button>
-        </div>
-        <button class="post-btn" id="post-button">
-            PUBLICAR
-        </button>
-    </div>
+
+        <div class="shop-content">
+            <aside class="shop-filters" id="mobile-offcanvas-filter">
+                <button class="filter-close-btn" id="filter-close-btn"><i class="fas fa-times"></i></button>
+                <div class="filter-group">
+                    <h3>Categorias</h3>
+                    <div class="filter-options">
+                        <div class="filter-option">
+                            <input type="checkbox" id="category-all" value="all" checked>
+                            <label for="category-all">Todas</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="category-machines" value="machines">
+                            <label for="category-machines">Máquinas de Tatuagem</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="category-inks" value="inks">
+                            <label for="category-inks">Tintas</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="category-needles" value="needles">
+                            <label for="category-needles">Agulhas</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="category-accessories" value="accessories">
+                            <label for="category-accessories">Acessórios</label>
+                        </div>
+                        <div class="filter-option">
+    <input type="checkbox" id="category-kits" value="kits">
+    <label for="category-kits">Kits</label>
 </div>
-        
-        <!-- Feed de Posts -->
-<div class="posts-feed" id="posts-feed">
-    <!-- Posts serão carregados dinamicamente aqui -->
-</div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Preço</h3>
+                    <input type="range" id="price-range" min="0" max="1000" value="1000" class="price-range">
+                    <div class="price-values">
+                        <span>R$0</span>
+                        <span id="max-price-display">R$1000</span>
+                    </div>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn apply" id="apply-filters">Aplicar Filtros</button>
+                    <button class="filter-btn" id="clear-filters">Limpar</button>
+                </div>
+            </aside>
+
+            <section class="shop-main-content">
+                <div class="shop-controls">
+                    <button class="filter-toggle-btn" id="filter-toggle-btn"><i class="fas fa-filter"></i> Filtros</button>
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="search-input" placeholder="Pesquisar produtos...">
+                    </div>
+                    <div class="sort-options">
+                        <label for="sort-by">Ordenar por:</label>
+                        <select id="sort-by">
+                            <option value="default">Relevância</option>
+                            <option value="price-asc">Preço: Menor para Maior</option>
+                            <option value="price-desc">Preço: Maior para Menor</option>
+                            <option value="name-asc">Nome: A-Z</option>
+                            <option value="name-desc">Nome: Z-A</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="shop-products" id="product-grid">
+                    </div>
+                <div id="no-results-message" style="display: none; text-align: center; color: #d1d5db; font-family: 'Teko', sans-serif; font-size: 1.8rem; margin-top: 3rem;">
+                    Nenhum item encontrado. Tente ajustar os filtros!
+                </div>
+                <div class="pagination" id="pagination">
+                    </div>
+            </section>
+        </div>
     </main>
-
-    <!-- Modal para visualizar imagens -->
-<div class="image-modal" id="image-modal">
-    <div class="close-modal" onclick="blog.closeImageModal()">&times;</div>
-    <div class="image-modal-content">
-        <img id="modal-image" src="" alt="Imagem ampliada">
-    </div>
-</div>
-
-    <!-- Footer -->
-  <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="brand-logo">
-                        <img src="/img/Logo.png" alt="Logo RAVEN" class="brand-logo" style="width: 50px; height: 50px;">
-                        <h3>RAVEN STUDIO</h3>
-                    </div>
-                    <p>Transformando pele em arte desde 2016. Cada tatuagem conta uma história única.</p>
-                    <div class="social-icons">
-                        <a href="https://www.instagram.com/raven_studio__" class="social-icon" aria-label="Instagram do Raven Studio">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>LINKS RÁPIDOS</h4>
-                    <ul>
-                        <li><a href="/pages/artists.html">Artistas</a></li>
-                        <li><a href="/pages/agendamento.html">Agendamento</a></li>
-                        <li><a href="/pages/loja.html">Loja</a></li>
-                        <li><a href="/pages/blog.html">Blog</a></li>
-                        <li><a href="/pages/loja.html">Loja</a></li>
-                        <li><a href="/pages/contato.html">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>CONTATO</h4>
-                    <div class="footer-contact-item">
-                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                        <span>Rua das Artes, 123<br>Vila Madalena - São Paulo, SP</span>
-                    </div>
-                    <div class="footer-contact-item">
-                        <i class="fas fa-phone" aria-hidden="true"></i>
-                        <span>(11) 99999-9999</span>
-                    </div>
-                    <div class="footer-contact-item">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                        <span>contato@ravenstudio.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-divider"></div>
-                <div class="footer-copyright">
-                    <p>© 2024 Raven Studio. Todos os direitos reservados.</p>
-                    <p class="footer-love">Feito com <i class="fas fa-heart" aria-hidden="true"></i> para amantes da arte corporal</p>
-                </div>
-            </div>
-        </div>
-    </footer>
- <!-- Botão para voltar ao topo -->
-    <button class="back-to-top" id="backToTop" title="Voltar ao topo">
+    
+    <div id="filter-overlay"></div> <button class="back-to-top" id="backToTop" title="Voltar ao topo">
         <i class="fas fa-arrow-up"></i>
     </button>
 
-  <div class="raven-chat-widget">
+       <div class="raven-chat-widget">
     <button class="raven-chat-toggle" id="ravenChatToggle" aria-expanded="false" aria-controls="ravenChatContainer" aria-label="Abrir ou fechar o chatbot">
         <div class="pulse-ring"></div>
         <i class="fas fa-comment-dots"></i>
@@ -1595,7 +1554,7 @@ emoji-picker {
     <div class="raven-chat-container" id="ravenChatContainer" role="dialog" aria-modal="true" aria-labelledby="chatTitle">
         <div class="raven-chat-header">
             <div class="artist-avatar">
-                <img src="/img/Logo.png" alt="Logo Raven Studio Chatbot">
+                <img src="../img/Logo.png" alt="Logo Raven Studio Chatbot">
             </div>
             <div class="chat-title">
                 <h4 id="chatTitle">Raven Tattoo Bot</h4>
@@ -1669,7 +1628,61 @@ emoji-picker {
             </div>
         </div>
     </div>
-</div>
+</div> 
+
+
+
+<footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <img src="../img/Logo.png" alt="Logo RAVEN" class="brand-logo" style="width: 50px; height: 50px;">
+                        <h3>RAVEN STUDIO</h3>
+                    </div>
+                    <p>Transformando pele em arte desde 2016. Cada tatuagem conta uma história única.</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/raven_studio__" class="social-icon" aria-label="Instagram do Raven Studio">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>LINKS RÁPIDOS</h4>
+                    <ul>
+                        <li><a href="../pages/artists.html">Artistas</a></li>
+                        <li><a href="../pages/agendamento.html">Agendamento</a></li>
+                        <li><a href="../pages/loja.html">Loja</a></li>
+                        <li><a href="../pages/blog.html">Blog</a></li>
+                        <li><a href="../pages/loja.html">Loja</a></li>
+                        <li><a href="../pages/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>CONTATO</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <span>Rua das Artes, 123<br>Vila Madalena - São Paulo, SP</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <span>(11) 99999-9999</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span>contato@ravenstudio.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-copyright">
+                    <p>© 2024 Raven Studio. Todos os direitos reservados.</p>
+                    <p class="footer-love">Feito com <i class="fas fa-heart" aria-hidden="true"></i> para amantes da arte corporal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 <div vw class="enabled">
@@ -1678,1625 +1691,486 @@ emoji-picker {
       <div class="vw-plugin-top-wrapper"></div>
     </div>
   </div>
-
-  <emoji-picker id="emoji-picker" style="display: none;"></emoji-picker>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 
+     <script src="../js/user-session.js"></script>
 
-         <script src="/js/navbar.js"></script>
-     <script src="/js/user-session.js"></script>
-      
-  <script src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script >
-     /**
- * Classe principal do Blog Raven Studio
- * Gerencia todas as operações do blog, incluindo posts, comentários e likes
+     <div class="product-card">
+    <img src="../img/products/tinta1.png" alt="Kit Tatuagem Profissional">
+    <h3>Kit Tatuagem Profissional</h3>
+    <p>R$ 999,99</p>
+    <button class="add-to-cart-btn" data-product-id="1">Adicionar ao Carrinho</button>
+</div>
+
+<script>
+// ==============================================
+// CONFIGURAÇÕES GLOBAIS
+// ==============================================
+const PRODUCTS_PER_PAGE = 8;
+const CART_KEY = 'ravenStudioCart';
+const USER_KEY = 'ravenStudioCurrentUser';
+
+// ==============================================
+// DADOS DOS PRODUTOS (SIMULADO - SUBSTITUA PELO SEU BANCO DE DADOS)
+// ==============================================
+const productsData = [
+    { id: 1, name: 'Máquina Rotativa Pro', category: 'machines', price: 750, oldPrice: 900, description: 'Máquina rotativa de alta performance para traço e pintura.', image: '../img/products/maquina1.png', badge: 'Oferta' },
+    { id: 2, name: 'Tinta Preto Absoluto', category: 'inks', price: 120, description: 'Tinta preta de alta qualidade para sombreamento e preenchimento.', image: '../img/products/tinta1.png' },
+    { id: 3, name: 'Kit Agulhas Variadas', category: 'needles', price: 80, description: 'Conjunto de agulhas descartáveis para diversas técnicas.', image: '../img/products/agulhas1.png' },
+    { id: 4, name: 'Fonte de Alimentação Digital', category: 'accessories', price: 300, description: 'Fonte digital com display LCD e controle preciso de voltagem.', image: '../img/products/fonte1.png' },
+    { id: 5, name: 'Máquina Bobina Clássica', category: 'machines', price: 600, description: 'Máquina de bobina tradicional, perfeita para contornos firmes.', image: '../img/products/bobina1.png'},
+    { id: 6, name: 'Tinta Vermelho Escarlate', category: 'inks', price: 100, description: 'Tinta vibrante para realçar suas tatuagens coloridas.', image: '../img/products/tintasumi2.png' },
+    { id: 7, name: 'Agulha Magnum Soft Edge', category: 'needles', price: 15, description: 'Agulha Magnum para preenchimentos suaves e uniformes.', image: '../img/products/agulhasoft1.png' },
+    { id: 8, name: 'Creme Pós-Tatuagem', category: 'accessories', price: 50, description: 'Creme hidratante e reparador para cicatrização da tatuagem.', image: '../img/products/creme2.png' },
+    { id: 9, name: 'Máquina Pen Híbrida', category: 'machines', price: 950, description: 'Máquina estilo caneta, leve e versátil, para todos os estilos.', image: '../img/products/maquinapen1.png', badge: 'Novo' },
+    { id: 10, name: 'Tinta Azul Oceano', category: 'inks', price: 110, description: 'Tinta azul intensa, ideal para trabalhos aquáticos e celestiais.', image: '../img/products/tintaazul1.png' },
+    { id: 11, name: 'Agulha Round Liner Fina', category: 'needles', price: 12, description: 'Agulha Round Liner para traços finos e detalhes precisos.', image: '../img/products/agulhafina1.png' },
+    { id: 12, name: 'Bancada de Trabalho Portátil', category: 'accessories', price: 400, description: 'Bancada dobrável e portátil, ideal para estúdios e convenções.', image: '../img/products/bancada1.png' },
+];
+
+// ==============================================
+// FUNÇÕES UTILITÁRIAS
+// ==============================================
+
+/**
+ * Formata preço para R$ (BRL)
  */
-class RavenBlog {
+function formatPrice(price) {
+    return price.toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+        minimumFractionDigits: 2
+    });
+}
+
+/**
+ * Mostra notificação na tela
+ */
+function showNotification(message, type = 'success') {
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.innerHTML = `
+        <i class="fas fa-${type === 'error' ? 'exclamation-circle' : 'check-circle'}"></i>
+        ${message}
+    `;
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => notification.remove(), 300);
+    }, 3000);
+}
+
+/**
+ * Obtém os dados do usuário logado
+ */
+function getUserSession() {
+    try {
+        const userData = localStorage.getItem(USER_KEY);
+        if (!userData) return null;
+
+        const user = JSON.parse(userData);
+        if (!user?.id) return null;
+
+        return {
+            id: user.id,
+            firstName: user.first_name || user.firstName,
+            lastName: user.last_name || user.lastName,
+            email: user.email,
+            isAdmin: Boolean(user.isAdmin || false),
+            points: user.loyalty_points || user.points || 0,
+            favorites: user.favorites || [] // Garante que sempre retorne um array
+        };
+    } catch (e) {
+        console.error("Erro ao obter dados do usuário:", e);
+        return null;
+    }
+}
+
+/**
+ * Atualiza o contador do carrinho na navbar
+ */
+function updateCartCounter() {
+    const cart = JSON.parse(localStorage.getItem(CART_KEY)) || [];
+    const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
+    const counter = document.getElementById('cart-count');
+    if (counter) counter.textContent = totalItems;
+}
+
+// ==============================================
+// CLASSE PRINCIPAL DA LOJA
+// ==============================================
+class RavenShop {
     constructor() {
-        // Configurações
-        this.API_URL = 'http://localhost/trabalhofinal/finalmente/api/blog.php';
-        this.MAX_IMAGE_SIZE = 2 * 1024 * 1024; // 2MB
-        this.POSTS_PER_PAGE = 10;
-        
-        // Estado da aplicação
+        this.products = productsData;
+        this.filteredProducts = [...productsData];
         this.currentPage = 1;
-        this.isLoading = false;
-        this.hasMorePosts = true;
-        this.selectedImage = null;
-        this.scrollTimeout = null;
-        
-        // Inicialização
+        this.cart = [];
         this.init();
     }
 
-    /**
-     * Inicializa o blog
-     */
+    // ==============================================
+    // INICIALIZAÇÃO
+    // ==============================================
     init() {
-        this.checkLoginStatus();
+        this.loadCart();
         this.setupEventListeners();
-        this.loadCurrentUser();
-        this.loadPosts();
+        this.renderProducts();
+        this.renderPagination();
+        updateCartCounter();
+    }
+
+    // ==============================================
+    // GERENCIAMENTO DO CARRINHO
+    // ==============================================
+    loadCart() {
+        try {
+            this.cart = JSON.parse(localStorage.getItem(CART_KEY)) || [];
+        } catch (e) {
+            console.error("Erro ao carregar carrinho:", e);
+            this.cart = [];
+        }
+    }
+
+    saveCart() {
+        localStorage.setItem(CART_KEY, JSON.stringify(this.cart));
+        updateCartCounter();
     }
 
     /**
-     * Verifica o status de login do usuário
+     * Adiciona produto ao carrinho (Frontend + Backend)
      */
-    checkLoginStatus() {
-        if (!window.userSession || !window.userSession.isLoggedIn()) {
-            this.showLoginRequired();
-            return false;
-        }
-        return true;
-    }
-
-    /**
-     * Mostra mensagem quando login é necessário
-     */
-    showLoginRequired() {
-        const container = document.getElementById('posts-feed');
-        if (!container) return;
-
-        container.innerHTML = `
-            <div class="empty-feed">
-                <i class="fas fa-lock"></i>
-                <h3>Conteúdo Bloqueado</h3>
-                <p>Faça login para visualizar os posts</p>
-                <a href="/pages/login.html" class="login-btn">Fazer Login</a>
-            </div>
-        `;
-    }
-
-    /**
-     * Configura os event listeners
-     */
-    setupEventListeners() {
-        // Botão de admin
-        const adminToggle = document.getElementById('admin-toggle');
-        if (adminToggle) {
-            adminToggle.addEventListener('click', () => this.toggleAdmin());
-        }
-
-        // Upload de imagem
-        const imageInput = document.getElementById('image-input');
-        if (imageInput) {
-            imageInput.addEventListener('change', (e) => this.handleImageUpload(e));
-        }
-        
-        // Botão de remover imagem
-        const removeImageBtn = document.getElementById('remove-image-btn');
-        if (removeImageBtn) {
-            removeImageBtn.addEventListener('click', () => this.removeImage());
-        }
-        
-    // Botão de publicar - versão corrigida
-    const postBtn = document.querySelector('.post-btn');
-    if (postBtn) {
-        postBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            this.createPost();
-        });
-    }
-    // Permitir submit com Enter no textarea
-    const postContent = document.getElementById('post-content');
-    if (postContent) {
-        postContent.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' && e.ctrlKey) {
-                e.preventDefault();
-                this.createPost();
+    async addToCart(productId) {
+        try {
+            const user = getUserSession();
+            if (!user) {
+                showNotification('Você precisa estar logado para adicionar produtos.', 'error');
+                window.location.href = 'login.html';
+                return;
             }
-        });
-    }
 
-        // Emoji picker
-        this.setupEmojiPicker();
+            const product = this.products.find(p => p.id === productId);
+            if (!product) {
+                showNotification('Produto não encontrado.', 'error');
+                return;
+            }
 
-        // Scroll infinito
-        window.addEventListener('scroll', () => this.handleScroll());
-
-        // Botão voltar ao topo
-        const backToTopBtn = document.getElementById('backToTop');
-        if (backToTopBtn) {
-            backToTopBtn.addEventListener('click', () => {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
+            // 1. Envia para o backend (API)
+            const response = await fetch('../api/auth.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    action: 'add_to_cart',
+                    product_id: productId,
+                    quantity: 1
+                })
             });
-        }
-    }
 
-    /**
-     * Configura o emoji picker
-     */
-    setupEmojiPicker() {
-        const emojiButton = document.getElementById('emoji-btn');
-        const emojiPicker = document.getElementById('emoji-picker');
-        const postContent = document.getElementById('post-content');
+            const result = await response.json();
 
-        if (!emojiButton || !emojiPicker || !postContent) return;
+            if (result.success) {
+                // 2. Atualiza o carrinho localmente
+                const existingItem = this.cart.find(item => item.id === productId);
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    this.cart.push({
+                        id: product.id,
+                        name: product.name,
+                        price: product.price,
+                        image: product.image,
+                        quantity: 1
+                    });
+                }
 
-        emojiPicker.style.position = 'absolute';
-        emojiPicker.style.display = 'none';
-        emojiPicker.style.zIndex = '1000';
+                this.saveCart();
+                showNotification(`${product.name} adicionado ao carrinho!`);
 
-        emojiButton.addEventListener('click', (e) => {
-            e.stopPropagation();
-            
-            const rect = emojiButton.getBoundingClientRect();
-            emojiPicker.style.display = emojiPicker.style.display === 'none' ? 'block' : 'none';
-            emojiPicker.style.top = `${rect.bottom + window.scrollY + 5}px`;
-            emojiPicker.style.left = `${rect.left + window.scrollX - 300}px`;
-            
-            emojiButton.classList.toggle('active');
-        });
-
-        emojiPicker.addEventListener('emoji-click', (event) => {
-            const emoji = event.detail.unicode;
-            const cursorPos = postContent.selectionStart;
-            const textBefore = postContent.value.substring(0, cursorPos);
-            const textAfter = postContent.value.substring(cursorPos);
-            
-            postContent.value = textBefore + emoji + textAfter;
-            postContent.selectionStart = cursorPos + emoji.length;
-            postContent.selectionEnd = cursorPos + emoji.length;
-            postContent.focus();
-            
-            emojiPicker.style.display = 'none';
-            emojiButton.classList.remove('active');
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!emojiPicker.contains(e.target) && e.target !== emojiButton) {
-                emojiPicker.style.display = 'none';
-                emojiButton.classList.remove('active');
+                // 3. Animação de feedback
+                const cartIcon = document.querySelector('.cart-icon');
+                if (cartIcon) {
+                    cartIcon.classList.add('added');
+                    setTimeout(() => cartIcon.classList.remove('added'), 500);
+                }
+            } else {
+                showNotification(result.message || 'Erro ao adicionar ao carrinho.', 'error');
             }
-        });
+        } catch (error) {
+            console.error('Erro ao adicionar ao carrinho:', error);
+            showNotification('Erro de conexão com o servidor.', 'error');
+        }
     }
 
-    /**
-     * Manipula o scroll para carregar mais posts
-     */
-    handleScroll() {
-        // Mostrar/ocultar botão voltar ao topo
-        const backToTopBtn = document.getElementById('backToTop');
-        if (backToTopBtn) {
-            backToTopBtn.style.display = window.pageYOffset > 300 ? 'flex' : 'none';
-        }
+    // ==============================================
+    // RENDERIZAÇÃO DOS PRODUTOS
+    // ==============================================
+    renderProducts() {
+        const productGrid = document.getElementById('product-grid');
+        if (!productGrid) return;
 
-        // Debounce para evitar múltiplas chamadas
-        if (this.scrollTimeout) {
-            clearTimeout(this.scrollTimeout);
-        }
+        productGrid.innerHTML = '';
 
-        this.scrollTimeout = setTimeout(() => {
-            const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-            
-            if (scrollTop + clientHeight >= scrollHeight - 500 && 
-                !this.isLoading && 
-                this.hasMorePosts) {
-                this.loadPosts();
-            }
-        }, 200);
-    }
-
-    /**
-     * Carrega os dados do usuário atual
-     */
-    loadCurrentUser() {
-        const userContainer = document.getElementById('user-info-container');
-        const userAvatar = document.getElementById('current-user-avatar');
-        const userName = document.getElementById('current-user-name');
-        const adminToggle = document.getElementById('admin-toggle');
-        
-        if (!window.userSession || !window.userSession.isLoggedIn()) {
-            if (userContainer) userContainer.style.display = 'none';
+        if (this.filteredProducts.length === 0) {
+            productGrid.innerHTML = `
+                <div class="no-products">
+                    <i class="fas fa-search"></i>
+                    <p>Nenhum produto encontrado.</p>
+                </div>`;
             return;
         }
-        
-        try {
-            const userData = window.userSession.currentUser;
-            const isAdmin = window.userSession.isAdmin();
-            
-            if (isAdmin) {
-                // Configurações para admin
-                if (userAvatar) {
-                    userAvatar.innerHTML = `
-                        <img src="/img/Logo.png" alt="Raven Studio" 
-                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-                    `;
-                }
-                
-                if (userName) {
-                    userName.textContent = 'Raven Studio';
-                    userName.classList.add('admin');
-                }
-                
-                if (adminToggle) {
-                    adminToggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: ON';
-                    adminToggle.classList.add('active');
-                    adminToggle.style.display = 'flex';
-                }
-                
-                // Mostra o formulário de posts
-                const newPostForm = document.getElementById('new-post-form');
-                if (newPostForm) newPostForm.classList.add('show');
-            } else {
-                // Configurações para usuários normais
-                const userInitial = userData.name ? userData.name.charAt(0).toUpperCase() : 'U';
-                
-                if (userAvatar) {
-                    if (userData.avatar && userData.avatar.startsWith('data:image')) {
-                        userAvatar.innerHTML = `
-                            <img src="${userData.avatar}" alt="${userData.name || 'Usuário'}" 
-                                 style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-                        `;
-                    } else {
-                        userAvatar.innerHTML = `
-                            <div style="width: 100%; height: 100%; 
-                                        background: linear-gradient(135deg, #3b82f6 0%, #22c55e 100%); 
-                                        border-radius: 50%; 
-                                        display: flex; 
-                                        align-items: center; 
-                                        justify-content: center;
-                                        color: #000;
-                                        font-weight: bold;">
-                                ${userInitial}
-                            </div>
-                        `;
-                    }
-                }
-                
-                if (userName) {
-                    userName.textContent = userData.name || 'Usuário';
-                    userName.classList.remove('admin');
-                }
-                
-                if (adminToggle) {
-                    adminToggle.style.display = 'none';
-                }
-            }
-            
-            if (userContainer) userContainer.style.display = 'flex';
-        } catch (error) {
-            console.error('Erro ao carregar usuário:', error);
-            if (userContainer) userContainer.style.display = 'none';
-        }
-    }
 
-    /**
-     * Alterna o modo admin
-     */
-    toggleAdmin() {
-        if (!window.userSession || !window.userSession.isAdmin()) return;
-        
-        this.isAdmin = !this.isAdmin;
-        const toggle = document.getElementById('admin-toggle');
-        const form = document.getElementById('new-post-form');
-        
-        if (toggle) {
-            if (this.isAdmin) {
-                toggle.classList.add('active');
-                toggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: ON';
-                if (form) form.classList.add('show');
-            } else {
-                toggle.classList.remove('active');
-                toggle.innerHTML = '<i class="fas fa-user-shield"></i> Admin: OFF';
-                if (form) form.classList.remove('show');
-            }
-        }
-    }
+        const startIdx = (this.currentPage - 1) * PRODUCTS_PER_PAGE;
+        const productsToShow = this.filteredProducts.slice(startIdx, startIdx + PRODUCTS_PER_PAGE);
 
-    /**
-     * Carrega os posts do blog
-     */
-async loadPosts() {
-    if (!this.checkLoginStatus() || this.isLoading || !this.hasMorePosts) return;
-    
-    this.isLoading = true;
-    this.showLoadingIndicator();
-    
-    try {
-        const response = await fetch(this.API_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${window.userSession?.currentUser?.id || ''}`
-            },
-            body: JSON.stringify({
-                action: 'get_posts',
-                page: this.currentPage,
-                limit: this.POSTS_PER_PAGE
-            })
+        productsToShow.forEach(product => {
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card';
+            productCard.innerHTML = this.generateProductHTML(product);
+            productGrid.appendChild(productCard);
         });
-        
-        if (!response.ok) {
-            throw new Error(`Erro HTTP! status: ${response.status}`);
-        }
-        
-        const data = await response.json();
-        
-        if (!data || typeof data !== 'object') {
-            throw new Error('Resposta inválida da API');
-        }
-        
-        if (data.success) {
-            // Verifica se data.posts existe e é um array
-            const receivedPosts = Array.isArray(data.posts) ? data.posts : [];
-            
-            if (receivedPosts.length === 0) {
-                this.hasMorePosts = false;
-                
-                if (this.currentPage === 1) {
-                    this.showEmptyFeed();
-                }
-            } else {
-                this.renderPosts(receivedPosts);
-                this.currentPage++;
-                
-                // Atualiza hasMorePosts baseado na resposta da API
-                if (typeof data.hasMore === 'boolean') {
-                    this.hasMorePosts = data.hasMore;
-                }
-            }
-        } else {
-            throw new Error(data.message || 'Erro ao carregar posts');
-        }
-    } catch (error) {
-        console.error('Erro ao carregar posts:', error);
-        this.showNotification(`Erro: ${error.message}`, 'error');
-        
-        // Força recarregar a página em caso de erro grave
-        if (this.currentPage === 1) {
-            setTimeout(() => {
-                window.location.reload();
-            }, 3000);
-        }
-    } finally {
-        this.isLoading = false;
-        this.hideLoadingIndicator();
-    }
-}
-    /**
-     * Mostra indicador de carregamento
-     */
-    showLoadingIndicator() {
-        const container = document.getElementById('posts-feed');
-        if (!container) return;
-        
-        // Verifica se já existe um indicador
-        if (!document.querySelector('.loading-indicator')) {
-            const loader = document.createElement('div');
-            loader.className = 'loading-indicator';
-            loader.innerHTML = `
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
-                </div>
-                <p>Carregando mais posts...</p>
-            `;
-            container.appendChild(loader);
-        }
+
+        this.setupProductInteractions();
     }
 
-    /**
-     * Esconde indicador de carregamento
-     */
-    hideLoadingIndicator() {
-        const loader = document.querySelector('.loading-indicator');
-        if (loader) loader.remove();
-    }
-
-    /**
-     * Mostra feed vazio
-     */
-    showEmptyFeed() {
-        const container = document.getElementById('posts-feed');
-        if (!container) return;
-        
-        container.innerHTML = `
-            <div class="empty-feed">
-                <i class="fas fa-rss"></i>
-                <h3>Nenhum post ainda</h3>
-                <p>Seja o primeiro a compartilhar algo interessante!</p>
-            </div>
-        `;
-    }
-
-    /**
-     * Renderiza os posts no feed
-     */
-   renderPosts(posts) {
-    const container = document.getElementById('posts-feed');
-    if (!container) return;
-
-    // Verificação robusta dos posts
-    if (!posts || !Array.isArray(posts)) {
-        console.error('Dados de posts inválidos:', posts);
-        return;
-    }
-
-    // Se for a primeira página, limpa o container
-    if (this.currentPage === 1) {
-        container.innerHTML = '';
-    }
-
-    // Verifica se há posts para mostrar
-    if (posts.length === 0 && this.currentPage === 1) {
-        this.showEmptyFeed();
-        return;
-    }
-
-    // Filtra posts nulos ou inválidos
-    const validPosts = posts.filter(post => 
-        post && post.id && (post.content || post.image)
-    );
-
-    validPosts.forEach(post => {
-        // Verifica se o post já existe para evitar duplicatas
-        if (document.getElementById(`post-${post.id}`)) return;
-        
-        try {
-            const postDate = new Date(post.created_at);
-            const timeAgo = this.getTimeAgo(postDate);
-            const postElement = document.createElement('article');
-            postElement.className = 'post-card';
-            postElement.id = `post-${post.id}`;
-            postElement.innerHTML = this.generatePostHTML(post, timeAgo);
-            
-            container.appendChild(postElement);
-        } catch (error) {
-            console.error('Erro ao renderizar post:', post, error);
-        }
-    });
-
-    // Configura eventos para os novos posts
-    this.setupPostEvents();
-}
-
-    /**
-     * Gera o HTML para um post
-     */
-generatePostHTML(post, timeAgo) {
-    // Verificação segura dos dados do usuário
-    const firstName = post.first_name || 'Usuário';
-    const lastName = post.last_name || '';
-    const userInitials = firstName.charAt(0) + (lastName ? lastName.charAt(0) : '');
-    const avatar = post.avatar || null;
-    const content = post.content || '';
-    const image = post.image || null;
+generateProductHTML(product) {
+    const user = getUserSession();
+    const isFavorite = user?.favorites?.includes(product.id) || false;
 
     return `
-   <header class="post-header">
-            <div class="post-avatar">
-                <img src="/img/Logo.png" alt="${firstName} ${lastName}" 
-                     class="post-avatar-img"
-                     onerror="this.style.display='none'">
-            </div>
-            <div class="post-user-info">
-                <div class="post-username">${firstName} ${lastName}</div>
-                <div class="post-time">${timeAgo}</div>
-            </div>
-        </header>
-        <div class="post-content">
-            ${content ? `<p class="post-text">${content}</p>` : ''}
-            ${image ? `
-                <img src="${image}" class="post-image" 
-                     onclick="blog.openImageModal('${image}')"
-                     onerror="this.style.display='none'">
-            ` : ''}
+        ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ''}
+        <div class="product-image">
+            <img src="${product.image}" alt="${product.name}" loading="lazy">
         </div>
-        
-        <footer class="post-footer">
-            <button class="post-action" onclick="blog.toggleLike('${post.id}')">
-                <i class="fas fa-heart"></i> ${post.likes_count || 0}
-            </button>
-            <button class="post-action" onclick="blog.toggleComments('${post.id}')">
-                <i class="fas fa-comment"></i> ${post.comments_count || 0}
-            </button>
-            <button class="post-action" onclick="blog.sharePost('${post.id}')">
-                <i class="fas fa-share"></i> Compartilhar
-            </button>
-        </footer>
-        
-        <div class="comments-section" id="comments-${post.id}">
-            <div class="comment-form">
-                ${window.userSession?.currentUser?.avatar ? 
-                    `<div class="comment-avatar"><img src="${window.userSession.currentUser.avatar}" 
-                         alt="${window.userSession.currentUser.name || 'Usuário'}" 
-                         onerror="this.onerror=null;this.parentElement.className='comment-avatar default';this.parentElement.innerHTML='${window.userSession.currentUser.name?.charAt(0) || 'U'}'"></div>` : 
-                    `<div class="comment-avatar default">${window.userSession.currentUser?.name?.charAt(0) || 'U'}</div>`}
-                <input type="text" class="comment-input" id="comment-input-${post.id}" 
-                       placeholder="Escreva um comentário..." 
-                       onkeypress="if(event.key === 'Enter') blog.addComment('${post.id}')">
+        <div class="product-info">
+            <span class="product-category">${this.getCategoryName(product.category)}</span>
+            <h3 class="product-title">${product.name}</h3>
+            <p class="product-description">${product.description}</p>
+            <div class="product-stock">Disponível: ${product.stock} unidades</div>
+            <div class="product-price">
+                ${formatPrice(product.price)}
+                ${product.oldPrice ? `<span class="old-price">${formatPrice(product.oldPrice)}</span>` : ''}
             </div>
-            <div class="comments-container" id="comments-container-${post.id}"></div>
+            <div class="points-container">
+                <i class="fas fa-coins points-icon"></i>
+                <span class="points-value">${Math.floor(product.price)} pts</span>
+            </div>
+        </div>
+        <div class="product-actions">
+            <button class="add-to-cart" data-id="${product.id}">
+                <i class="fas fa-shopping-cart"></i> Adicionar
+            </button>
+            <button class="wishlist-btn ${isFavorite ? 'active' : ''}" data-id="${product.id}">
+                <i class="fas fa-heart"></i>
+            </button>
         </div>
     `;
 }
-
-    /**
-     * Configura eventos para os posts
-     */
-    setupPostEvents() {
-        // Todos os eventos são tratados via onclick nos elementos
-    }
-
-    /**
-     * Manipula o upload de imagem
-     */
-    handleImageUpload(event) {
-        const file = event.target.files[0];
-        if (!file) return;
-
-        // Verificações
-        if (!file.type.match('image.*')) {
-            this.showNotification('Por favor, selecione um arquivo de imagem válido (JPEG, PNG, etc.)', 'error');
-            return;
-        }
-
-        if (file.size > this.MAX_IMAGE_SIZE) {
-            this.showNotification(`A imagem deve ter menos de ${this.MAX_IMAGE_SIZE/1024/1024}MB`, 'error');
-            return;
-        }
-
-        const reader = new FileReader();
-        
-        reader.onload = (e) => {
-            if (e.target.result && typeof e.target.result === 'string') {
-                this.compressImage(e.target.result, 0.7).then(compressedImage => {
-                    this.selectedImage = compressedImage;
-                    document.getElementById('preview-image').src = this.selectedImage;
-                    document.getElementById('image-preview').style.display = 'block';
-                }).catch(error => {
-                    console.error('Erro ao comprimir imagem:', error);
-                    this.showNotification('Erro ao processar a imagem', 'error');
-                });
-            } else {
-                this.showNotification('Erro ao processar a imagem', 'error');
-            }
-        };
-        
-        reader.onerror = () => {
-            this.showNotification('Erro ao ler o arquivo de imagem', 'error');
-        };
-        
-        reader.readAsDataURL(file);
-    }
-
-    /**
-     * Comprime uma imagem
-     */
-    compressImage(src, quality = 0.7) {
-        return new Promise((resolve, reject) => {
-            const img = new Image();
-            img.src = src;
-            
-            img.onload = () => {
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                
-                // Redimensionar se for muito grande
-                const MAX_WIDTH = 800;
-                const MAX_HEIGHT = 800;
-                let width = img.width;
-                let height = img.height;
-                
-                if (width > height) {
-                    if (width > MAX_WIDTH) {
-                        height *= MAX_WIDTH / width;
-                        width = MAX_WIDTH;
-                    }
-                } else {
-                    if (height > MAX_HEIGHT) {
-                        width *= MAX_HEIGHT / height;
-                        height = MAX_HEIGHT;
-                    }
-                }
-                
-                canvas.width = width;
-                canvas.height = height;
-                ctx.drawImage(img, 0, 0, width, height);
-                
-                resolve(canvas.toDataURL('image/jpeg', quality));
-            };
-            
-            img.onerror = reject;
-        });
-    }
-
-    /**
-     * Remove a imagem selecionada
-     */
-    removeImage() {
-        this.selectedImage = null;
-        document.getElementById('preview-image').src = '#';
-        document.getElementById('image-preview').style.display = 'none';
-        document.getElementById('image-input').value = '';
-    }
-
-    /**
-     * Cria um novo post
-     */
-async createPost() {
-    try {
-        // Verificação robusta de autenticação e permissões
-        if (!window.userSession || !window.userSession.isLoggedIn()) {
-            this.showNotification('Por favor, faça login para criar posts.', 'error');
-            setTimeout(() => window.location.href = '/pages/login.html', 1500);
-            return;
-        }
-
-        if (!window.userSession.isAdmin()) {
-            this.showNotification('Apenas administradores podem criar posts.', 'error');
-            return;
-        }
-
-        const postContent = document.getElementById('post-content');
-        if (!postContent) {
-            throw new Error('Elemento do post não encontrado');
-        }
-
-        const content = postContent.value.trim();
-        const hasImage = this.selectedImage && 
-                        typeof this.selectedImage === 'string' && 
-                        this.selectedImage.startsWith('data:image');
-
-        // Validação do conteúdo
-        if (!content && !hasImage) {
-            this.showNotification('O post precisa conter texto ou imagem.', 'error');
-            return;
-        }
-
-        // Mostrar estado de carregamento
-        const postBtn = document.querySelector('.post-btn');
-        if (postBtn) {
-            postBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Publicando...';
-            postBtn.disabled = true;
-        }
-
-        // Preparar dados para a API
-        const postData = {
-            action: 'create_post',
-            content: content || null,
-            image: hasImage ? this.selectedImage : null
-        };
-
-        // Debug: Mostrar dados que serão enviados
-        console.log('Dados do post a ser enviado:', postData);
-
-        const response = await fetch(this.API_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${window.userSession.currentUser.id}`
-            },
-            body: JSON.stringify(postData)
-        });
-
-        // Verificar se a resposta é JSON válido
-        const responseText = await response.text();
-        let data;
-        
-        try {
-            data = JSON.parse(responseText);
-        } catch (e) {
-            console.error('Resposta não é JSON válido:', responseText);
-            throw new Error('Resposta inválida do servidor');
-        }
-
-        // Debug: Mostrar resposta da API
-        console.log('Resposta da API:', data);
-
-        if (!response.ok || !data.success) {
-            throw new Error(data.message || `Erro HTTP! status: ${response.status}`);
-        }
-
-        // Sucesso!
-        this.showNotification('Post publicado com sucesso!');
-        
-        // Resetar formulário
-        postContent.value = '';
-        this.removeImage();
-        
-        // Recarregar posts
-        this.currentPage = 1;
-        this.hasMorePosts = true;
-        document.getElementById('posts-feed').innerHTML = '';
-        await this.loadPosts();
-
-    } catch (error) {
-        console.error('Erro ao criar post:', error);
-        this.showNotification(`Erro: ${error.message}`, 'error');
-        
-        // Debug adicional
-        if (error.response) {
-            console.error('Detalhes do erro:', await error.response.text());
-        }
-    } finally {
-        // Restaurar botão
-        const postBtn = document.querySelector('.post-btn');
-        if (postBtn) {
-            postBtn.innerHTML = 'PUBLICAR';
-            postBtn.disabled = false;
-        }
-    }
+getCategoryName(categoryKey) {
+    const categories = {
+        'machines': 'Máquinas',
+        'inks': 'Tintas',
+        'needles': 'Agulhas',
+        'accessories': 'Acessórios',
+        'kits': 'Kits'
+    };
+    return categories[categoryKey] || categoryKey;
 }
+    // ==============================================
+    // FILTROS, ORDENAÇÃO E PAGINAÇÃO
+    // ==============================================
+    filterProducts() {
+        const searchTerm = document.getElementById('search-input')?.value.toLowerCase() || '';
+        const selectedCategories = Array.from(
+            document.querySelectorAll('.filter-option input[type="checkbox"]:checked')
+        ).map(cb => cb.value).filter(v => v !== 'all');
 
-    /**
-     * Alterna o like em um post
-     */
-async toggleLike(postId) {
-    // Verificação robusta de autenticação
-    if (!window.userSession || !window.userSession.isLoggedIn()) {
-        this.showNotification('Por favor, faça login para curtir posts.', 'error');
-        setTimeout(() => window.location.href = '/pages/login.html', 1500);
-        return;
-    }
+        const maxPrice = parseFloat(document.getElementById('price-range')?.value || 10000);
+        const sortBy = document.getElementById('sort-by')?.value || 'default';
 
-    try {
-        const likeButton = document.querySelector(`.post-action[onclick="blog.toggleLike('${postId}')"]`);
-        if (likeButton) {
-            likeButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
-            likeButton.disabled = true;
+        this.filteredProducts = this.products.filter(product => {
+            const matchesSearch = product.name.toLowerCase().includes(searchTerm) || 
+                                product.description.toLowerCase().includes(searchTerm);
+            const matchesCategory = selectedCategories.length === 0 || 
+                                  selectedCategories.includes(product.category);
+            const matchesPrice = product.price <= maxPrice;
+            return matchesSearch && matchesCategory && matchesPrice;
+        });
+
+        // Ordenação
+        if (sortBy === 'price-asc') {
+            this.filteredProducts.sort((a, b) => a.price - b.price);
+        } else if (sortBy === 'price-desc') {
+            this.filteredProducts.sort((a, b) => b.price - a.price);
+        } else if (sortBy === 'name-asc') {
+            this.filteredProducts.sort((a, b) => a.name.localeCompare(b.name));
+        } else if (sortBy === 'name-desc') {
+            this.filteredProducts.sort((a, b) => b.name.localeCompare(a.name));
         }
 
-        const response = await fetch(this.API_URL, {
+        this.currentPage = 1;
+        this.renderProducts();
+        this.renderPagination();
+    }
+
+    renderPagination() {
+        const pagination = document.getElementById('pagination');
+        if (!pagination) return;
+
+        pagination.innerHTML = '';
+        const totalPages = Math.ceil(this.filteredProducts.length / PRODUCTS_PER_PAGE);
+
+        for (let i = 1; i <= totalPages; i++) {
+            const pageBtn = document.createElement('button');
+            pageBtn.className = `page-btn ${i === this.currentPage ? 'active' : ''}`;
+            pageBtn.textContent = i;
+            pageBtn.addEventListener('click', () => {
+                this.currentPage = i;
+                this.renderProducts();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+            pagination.appendChild(pageBtn);
+        }
+    }
+
+    clearFilters() {
+        document.getElementById('search-input').value = '';
+        document.querySelectorAll('.filter-option input').forEach(input => {
+            input.checked = input.value === 'all';
+        });
+        document.getElementById('price-range').value = document.getElementById('price-range').max;
+        document.getElementById('sort-by').value = 'default';
+        this.filterProducts();
+    }
+
+    // ==============================================
+    // INTERAÇÕES E EVENTOS
+    // ==============================================
+    setupEventListeners() {
+        // Filtros
+        document.getElementById('search-input')?.addEventListener('input', () => this.filterProducts());
+        document.getElementById('sort-by')?.addEventListener('change', () => this.filterProducts());
+        document.getElementById('apply-filters')?.addEventListener('click', () => this.filterProducts());
+        document.getElementById('clear-filters')?.addEventListener('click', () => this.clearFilters());
+
+        // Menu mobile
+        document.getElementById('nav-toggle')?.addEventListener('click', () => {
+            document.getElementById('nav-menu').classList.toggle('active');
+        });
+    }
+
+setupProductInteractions() {
+    // Delegação de eventos para elementos dinâmicos
+    document.addEventListener('click', (e) => {
+        // Adicionar ao carrinho
+        if (e.target.closest('.add-to-cart')) {
+            const productId = parseInt(e.target.closest('.add-to-cart').dataset.id);
+            this.addToCart(productId);
+        }
+
+        // Favoritos
+        if (e.target.closest('.wishlist-btn')) {
+            const productId = parseInt(e.target.closest('.wishlist-btn').dataset.id);
+            this.toggleFavorite(productId);
+        }
+    });
+}
+    /**
+     * Alterna produto nos favoritos
+     */
+/**
+ * Alterna produto nos favoritos
+ */
+async toggleFavorite(productId) {
+    try {
+        const user = getUserSession();
+        if (!user) {
+            showNotification('Faça login para adicionar favoritos.', 'error');
+            window.location.href = 'login.html';
+            return;
+        }
+
+        const wishlistBtn = document.querySelector(`.wishlist-btn[data-id="${productId}"]`);
+        const isFavorite = wishlistBtn.classList.contains('active');
+        const action = isFavorite ? 'remove_from_favorites' : 'add_to_favorites';
+
+        // 1. Envia para o backend (API)
+        const response = await fetch('../api/auth.php', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${window.userSession.currentUser.id}`
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                action: 'toggle_like',
-                post_id: postId
+                action,
+                product_id: productId
             })
         });
 
-        // Verificar se a resposta é JSON válido
-        const responseText = await response.text();
-        let data;
-        
-        try {
-            data = JSON.parse(responseText);
-        } catch (e) {
-            console.error('Resposta não é JSON válido:', responseText);
-            throw new Error('Resposta inválida do servidor');
-        }
+        const result = await response.json();
 
-        if (!response.ok || !data.success) {
-            throw new Error(data.message || `Erro HTTP! status: ${response.status}`);
-        }
-
-        // Atualizar visualmente o botão de like
-        if (likeButton) {
-            likeButton.innerHTML = `<i class="fas fa-heart"></i> ${data.likesCount}`;
-            likeButton.disabled = false;
-            
-            // Alternar classe de like
-            if (data.action === 'added') {
-                likeButton.classList.add('liked');
+        if (result.success) {
+            // 2. Atualiza os favoritos localmente
+            let favorites = user.favorites || [];
+            if (action === 'add_to_favorites') {
+                favorites.push(productId);
             } else {
-                likeButton.classList.remove('liked');
+                favorites = favorites.filter(id => id !== productId);
             }
-        }
 
-        // Feedback visual
-        const message = data.action === 'added' ? 'Post curtido!' : 'Like removido';
-        this.showNotification(message);
+            // Atualiza o localStorage
+            const updatedUser = { ...user, favorites };
+            localStorage.setItem(USER_KEY, JSON.stringify(updatedUser));
 
-    } catch (error) {
-        console.error('Erro ao curtir post:', error);
-        this.showNotification(`Erro: ${error.message}`, 'error');
-        
-        // Restaurar botão em caso de erro
-        const likeButton = document.querySelector(`.post-action[onclick="blog.toggleLike('${postId}')"]`);
-        if (likeButton) {
-            const likesCount = likeButton.textContent.match(/\d+/) || '0';
-            likeButton.innerHTML = `<i class="fas fa-heart"></i> ${likesCount}`;
-            likeButton.disabled = false;
-        }
-    }
-}
-
-    /**
-     * Alterna a visibilidade dos comentários
-     */
-    toggleComments(postId) {
-        const commentsSection = document.getElementById(`comments-${postId}`);
-        if (!commentsSection) return;
-        
-        // Alternar visibilidade
-        commentsSection.classList.toggle('show');
-        
-        // Se estiver sendo mostrado, carregar comentários
-        if (commentsSection.classList.contains('show')) {
-            this.loadComments(postId);
+            // 3. Atualiza a UI
+            wishlistBtn.classList.toggle('active');
             
-            // Focar no campo de comentário após um pequeno delay
-            setTimeout(() => {
-                const input = document.getElementById(`comment-input-${postId}`);
-                if (input) input.focus();
-            }, 100);
-        }
-    }
+            const message = isFavorite ? 
+                'Produto removido dos favoritos' : 
+                'Produto adicionado aos favoritos!';
+            showNotification(message);
 
-    /**
-     * Carrega os comentários de um post
-     */
-    async loadComments(postId) {
-        try {
-            const response = await fetch(this.API_URL, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    action: 'get_comments',
-                    post_id: postId
-                })
-            });
-
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-
-            const data = await response.json();
-
-            if (data.success) {
-                const commentsContainer = document.getElementById(`comments-container-${postId}`);
-                if (commentsContainer) {
-                    commentsContainer.innerHTML = data.comments.map(comment => `
-                        <div class="comment">
-                            ${comment.avatar ? 
-                                `<div class="comment-avatar"><img src="${comment.avatar}" alt="${comment.first_name} ${comment.last_name}"></div>` : 
-                                `<div class="comment-avatar default">${comment.first_name.charAt(0)}${comment.last_name.charAt(0)}</div>`}
-                            <div class="comment-content">
-                                <div class="comment-user">${comment.first_name} ${comment.last_name}</div>
-                                <div class="comment-text">${comment.content}</div>
-                                <div class="comment-time">${this.getTimeAgo(comment.created_at)}</div>
-                            </div>
-                        </div>
-                    `).join('');
-
-                    // Rolagem para o final
-                    setTimeout(() => {
-                        commentsContainer.scrollTop = commentsContainer.scrollHeight;
-                    }, 50);
-                }
-            } else {
-                throw new Error(data.message || 'Erro ao carregar comentários');
-            }
-        } catch (error) {
-            console.error('Erro ao carregar comentários:', error);
-        }
-    }
-
-    /**
-     * Adiciona um comentário a um post
-     */
-    async addComment(postId) {
-        const input = document.getElementById(`comment-input-${postId}`);
-        if (!input) return;
-        
-        const content = input.value.trim();
-        
-        if (!content) {
-            this.showNotification('Digite um comentário antes de enviar!');
-            return;
-        }
-
-        if (!window.userSession || !window.userSession.isLoggedIn()) {
-            this.showNotification('Por favor, faça login para comentar.');
-            setTimeout(() => {
-                window.location.href = '/pages/login.html';
-            }, 1500);
-            return;
-        }
-
-        try {
-            // Desabilitar input durante o envio
-            input.disabled = true;
-            
-            const response = await fetch(this.API_URL, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${window.userSession.currentUser.id}`
-                },
-                body: JSON.stringify({
-                    action: 'add_comment',
-                    post_id: postId,
-                    content: content
-                })
-            });
-
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-
-            const data = await response.json();
-
-            if (data.success) {
-                // Recarregar comentários
-                await this.loadComments(postId);
-                
-                // Limpar input
-                input.value = '';
-                
-                this.showNotification('Comentário adicionado!');
-            } else {
-                throw new Error(data.message || 'Erro ao adicionar comentário');
-            }
-        } catch (error) {
-            console.error('Erro ao adicionar comentário:', error);
-            this.showNotification(`Erro: ${error.message}`, 'error');
-        } finally {
-            // Reabilitar input
-            input.disabled = false;
-        }
-    }
-
-    /**
-     * Compartilha um post
-     */
-    sharePost(postId) {
-        if (navigator.share) {
-            navigator.share({
-                title: 'Confira este post do Raven Studio',
-                text: 'Veja este post interessante sobre tatuagens!',
-                url: `${window.location.origin}/pages/blog.html?post=${postId}`
-            }).catch(error => {
-                console.log('Erro ao compartilhar:', error);
-                this.showNotification('Navegador não suporta compartilhamento nativo. Copie o link manualmente.');
-            });
         } else {
-            // Fallback para navegadores que não suportam Web Share API
-            const url = `${window.location.origin}/pages/blog.html?post=${postId}`;
-            navigator.clipboard.writeText(url).then(() => {
-                this.showNotification('Link copiado para a área de transferência!');
-            }).catch(() => {
-                prompt('Copie o link para compartilhar:', url);
-            });
+            showNotification(result.message || 'Erro ao atualizar favoritos.', 'error');
         }
-    }
-
-    /**
-     * Abre o modal de imagem
-     */
-    openImageModal(imageSrc) {
-        const modal = document.getElementById('image-modal');
-        const modalImage = document.getElementById('modal-image');
-        
-        if (modal && modalImage) {
-            modalImage.src = imageSrc;
-            modal.style.display = 'block';
-            
-            // Fechar modal ao pressionar ESC
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') {
-                    this.closeImageModal();
-                }
-            });
-        }
-    }
-
-    /**
-     * Fecha o modal de imagem
-     */
-    closeImageModal() {
-        const modal = document.getElementById('image-modal');
-        if (modal) modal.style.display = 'none';
-    }
-
-    /**
-     * Mostra uma notificação
-     */
-    showNotification(message, type = 'success') {
-        const colors = {
-            success: 'linear-gradient(135deg, #3b82f6, #22c55e)',
-            error: 'linear-gradient(135deg, #ef4444, #dc2626)',
-            warning: 'linear-gradient(135deg, #f59e0b, #d97706)'
-        };
-        
-        const notification = document.createElement('div');
-        notification.className = 'notification';
-        notification.style.cssText = `
-            position: fixed;
-            top: 80px;
-            right: 20px;
-            background: ${colors[type] || colors.success};
-            color: #000;
-            padding: 1rem 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            z-index: 1000;
-            font-family: 'Bebas Neue', cursive;
-            font-size: 1.2rem;
-            animation: slideIn 0.3s ease-out;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        `;
-        
-        const icon = type === 'error' ? 'fa-exclamation-circle' : 
-                    type === 'warning' ? 'fa-exclamation-triangle' : 'fa-check-circle';
-        
-        notification.innerHTML = `
-            <i class="fas ${icon}"></i>
-            <span>${message}</span>
-        `;
-        
-        document.body.appendChild(notification);
-        
-        setTimeout(() => {
-            notification.style.animation = 'slideOut 0.3s ease-out';
-            setTimeout(() => notification.remove(), 300);
-        }, 3000);
-    }
-
-    /**
-     * Calcula o tempo decorrido de forma legível
-     */
-    getTimeAgo(timestamp) {
-        const date = new Date(timestamp);
-        const now = new Date();
-        const diff = (now - date) / 1000; // Diferença em segundos
-        
-        if (diff < 60) return 'agora';
-        if (diff < 3600) return `${Math.floor(diff / 60)}min`;
-        if (diff < 86400) return `${Math.floor(diff / 3600)}h`;
-        if (diff < 604800) return `${Math.floor(diff / 86400)}d`;
-        
-        // Para datas mais antigas, mostrar a data completa
-        return date.toLocaleDateString('pt-BR', {
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric'
-        });
+    } catch (error) {
+        console.error('Erro ao atualizar favoritos:', error);
+        showNotification('Erro de conexão.', 'error');
     }
 }
+}
 
-// Inicializa o blog quando o DOM estiver carregado
-document.addEventListener('DOMContentLoaded', function() {
+// ==============================================
+// INICIALIZAÇÃO DA LOJA
+// ==============================================
+document.addEventListener('DOMContentLoaded', async () => {
     // Verifica se o usuário está logado
-    if (!window.userSession || !window.userSession.isLoggedIn()) {
-        const container = document.getElementById('posts-feed');
-        if (container) {
-            container.innerHTML = `
-                <div class="empty-feed">
-                    <i class="fas fa-lock"></i>
-                    <h3>Conteúdo Bloqueado</h3>
-                    <p>Faça login para visualizar os posts</p>
-                    <a href="/pages/login.html" class="login-btn">Fazer Login</a>
-                </div>
-            `;
+    const user = getUserSession();
+    if (user) {
+        try {
+            // Atualiza os favoritos do usuário
+            const response = await fetch('../api/auth.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    action: 'get_favorites'
+                })
+            });
+            
+            const result = await response.json();
+            
+            if (result.success) {
+                user.favorites = result.favorites || [];
+                localStorage.setItem(USER_KEY, JSON.stringify(user));
+            }
+        } catch (error) {
+            console.error('Erro ao carregar favoritos:', error);
         }
-        return;
     }
-    
-    // Inicializa o blog
-    window.blog = new RavenBlog();
+
+    // Inicializa a loja
+    window.shop = new RavenShop();
+    updateCartCounter();
 });
-
-// Adiciona estilos de animação dinamicamente
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes slideIn {
-        from { transform: translateX(100%); opacity: 0; }
-        to { transform: translateX(0); opacity: 1; }
-    }
-    @keyframes slideOut {
-        from { transform: translateX(0); opacity: 1; }
-        to { transform: translateX(100%); opacity: 0; }
-    }
-    
-    .loading-indicator {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem;
-        color: #3b82f6;
-    }
-    
-    .spinner {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        margin-bottom: 1rem;
-    }
-    
-    .double-bounce1, .double-bounce2 {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        background-color: #3b82f6;
-        opacity: 0.6;
-        position: absolute;
-        top: 0;
-        left: 0;
-        animation: sk-bounce 2.0s infinite ease-in-out;
-    }
-    
-    .double-bounce2 {
-        animation-delay: -1.0s;
-    }
-    
-    @keyframes sk-bounce {
-        0%, 100% { transform: scale(0.0); }
-        50% { transform: scale(1.0); }
-    }
-`;
-document.head.appendChild(style);
     </script>
-
-    <!-- Adicionar o picker de emojis (no final do body) -->
-<emoji-picker id="emoji-picker" style="display: none; position: absolute; z-index: 1000;"></emoji-picker>
 </body>
 </html>
-
-
-<?php
-// blog.php - API para o sistema de blog
-// Configuração de erro detalhada (apenas para desenvolvimento)
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
-// Log de erros
-set_error_handler(function($errno, $errstr, $errfile, $errline) {
-    file_put_contents('php_errors.log', 
-        date('Y-m-d H:i:s') . " - [$errno] $errstr in $errfile on line $errline\n", 
-        FILE_APPEND
-    );
-});
-
-// Log de exceções
-set_exception_handler(function($e) {
-    file_put_contents('php_exceptions.log', 
-        date('Y-m-d H:i:s') . " - " . $e->getMessage() . " in " . $e->getFile() . " on line " . $e->getLine() . "\n", 
-        FILE_APPEND
-    );
-    sendError("Erro interno do servidor", 500);
-});
-// Configurações iniciais
-header("Content-Type: application/json; charset=UTF-8");
-ini_set('display_errors', 0);
-error_reporting(E_ALL);
-
-// Configuração de CORS
-$allowedOrigins = [
-    "http://localhost",
-    "http://127.0.0.1",
-    "http://127.0.0.1:5500",
-    "http://127.0.0.1:5501",
-    "http://127.0.0.1:5502"
-];
-
-$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
-
-if (in_array($origin, $allowedOrigins)) {
-    header("Access-Control-Allow-Origin: " . $origin);
-}
-
-header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-header("Access-Control-Allow-Credentials: true");
-header("Access-Control-Max-Age: 3600");
-
-// Responder imediatamente para requisições OPTIONS
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
-    http_response_code(200);
-    exit();
-}
-
-// Funções auxiliares
-function sendResponse($data, $statusCode = 200) {
-    http_response_code($statusCode);
-    echo json_encode($data);
-    exit();
-}
-
-function sendError($message, $statusCode = 400) {
-    sendResponse([
-        'success' => false,
-        'message' => $message
-    ], $statusCode);
-}
-
-function getAuthorizationToken() {
-    $headers = getallheaders();
-    
-    if (!isset($headers['Authorization'])) {
-        return null;
-    }
-    
-    $authHeader = $headers['Authorization'];
-    
-    if (!preg_match('/Bearer\s(\S+)/', $authHeader, $matches)) {
-        return null;
-    }
-    
-    return $matches[1];
-}
-
-function validateUser($conn, $userId) {
-    $stmt = $conn->prepare("SELECT id, isAdmin FROM users WHERE id = ?");
-    $stmt->execute([$userId]);
-    return $stmt->fetch(PDO::FETCH_ASSOC);
-}
-
-// Conexão com o banco de dados
-require_once 'conexao.php';
-
-try {
-    // Verificar se a conexão foi estabelecida
-    if (!$conn) {
-        sendError("Erro na conexão com o banco de dados", 500);
-    }
-
-    // Obter dados da requisição
-    $input = json_decode(file_get_contents('php://input'), true);
-    
-    if (json_last_error() !== JSON_ERROR_NONE) {
-        sendError("Dados JSON inválidos");
-    }
-
-    if (empty($input['action'])) {
-        sendError("Ação não especificada");
-    }
-
-    // Processar ações
-    switch ($input['action']) {
-        case 'get_posts':
-            // Parâmetros de paginação
-            $page = isset($input['page']) ? (int)$input['page'] : 1;
-            $limit = isset($input['limit']) ? (int)$input['limit'] : 10;
-            
-            if ($page < 1) $page = 1;
-            if ($limit < 1 || $limit > 50) $limit = 10;
-            
-            $offset = ($page - 1) * $limit;
-
-            // Consulta para obter posts
-            $stmt = $conn->prepare("
-                SELECT 
-                    p.id, 
-                    p.user_id, 
-                    p.content, 
-                    p.image, 
-                    p.created_at,
-                    u.first_name, 
-                    u.last_name, 
-                    u.avatar,
-                    (SELECT COUNT(*) FROM blog_likes WHERE post_id = p.id) AS likes_count,
-                    (SELECT COUNT(*) FROM blog_comments WHERE post_id = p.id) AS comments_count
-                FROM blog_posts p
-                JOIN users u ON p.user_id = u.id
-                ORDER BY p.created_at DESC
-                LIMIT :limit OFFSET :offset
-            ");
-            
-            $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
-            $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
-            $stmt->execute();
-            
-            $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
-            
-            // Verificar se há mais posts
-            $stmt = $conn->prepare("SELECT COUNT(*) FROM blog_posts");
-            $stmt->execute();
-            $totalPosts = $stmt->fetchColumn();
-            $hasMore = ($totalPosts > ($offset + $limit));
-            
-            sendResponse([
-                'success' => true,
-                'posts' => $posts,
-                'hasMore' => $hasMore,
-                'total' => $totalPosts
-            ]);
-            break;
-
-case 'create_post':
-    // Verificação robusta de autenticação
-    $userId = getAuthorizationToken();
-    if (!$userId) {
-        sendError("Token de autenticação não fornecido", 401);
-    }
-
-    // Verificar se usuário é admin
-    $stmt = $conn->prepare("SELECT isAdmin FROM users WHERE id = ?");
-    $stmt->execute([$userId]);
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-
-    if (!$user || !$user['isAdmin']) {
-        sendError("Apenas administradores podem criar posts", 403);
-    }
-
-    // Validação dos dados
-    if (!isset($input['content']) && !isset($input['image'])) {
-        sendError("O post deve conter texto ou imagem");
-    }
-
-    $content = isset($input['content']) ? trim($input['content']) : null;
-    $image = isset($input['image']) ? trim($input['image']) : null;
-
-    // Validação adicional
-    if ($content === "" && $image === null) {
-        sendError("O post deve conter texto ou imagem");
-    }
-
-    if ($content && mb_strlen($content) > 2000) {
-        sendError("O conteúdo do post não pode exceder 2000 caracteres");
-    }
-
-    if ($image && !filter_var($image, FILTER_VALIDATE_URL) && !str_starts_with($image, 'data:image')) {
-        sendError("Formato de imagem inválido");
-    }
-
-    // Inserir no banco de dados
-    try {
-        $stmt = $conn->prepare("
-            INSERT INTO blog_posts (user_id, content, image)
-            VALUES (:user_id, :content, :image)
-        ");
-        
-        $stmt->bindParam(':user_id', $userId);
-        $stmt->bindParam(':content', $content);
-        $stmt->bindParam(':image', $image);
-        
-        if (!$stmt->execute()) {
-            sendError("Erro ao criar post no banco de dados", 500);
-        }
-
-        // Obter dados completos do post criado
-        $postId = $conn->lastInsertId();
-        
-        $stmt = $conn->prepare("
-            SELECT 
-                p.id, 
-                p.user_id, 
-                p.content, 
-                p.image, 
-                p.created_at,
-                u.first_name, 
-                u.last_name, 
-                u.avatar,
-                0 AS likes_count,
-                0 AS comments_count
-            FROM blog_posts p
-            JOIN users u ON p.user_id = u.id
-            WHERE p.id = ?
-        ");
-        
-        $stmt->execute([$postId]);
-        $post = $stmt->fetch(PDO::FETCH_ASSOC);
-
-        sendResponse([
-            'success' => true,
-            'message' => 'Post criado com sucesso',
-            'post' => $post
-        ]);
-
-    } catch (PDOException $e) {
-        // Verificar se é erro de duplicação
-        if (strpos($e->getMessage(), 'Duplicate entry') !== false) {
-            sendError("Este post já existe", 400);
-        }
-        sendError("Erro no banco de dados: " . $e->getMessage(), 500);
-    }
-    break;
-
-case 'toggle_like':
-    // Verificação robusta de autenticação
-    $userId = getAuthorizationToken();
-    if (!$userId) {
-        sendError("Token de autenticação não fornecido", 401);
-    }
-
-    // Validar post_id
-    if (empty($input['post_id'])) {
-        sendError("ID do post não fornecido");
-    }
-
-    $postId = $input['post_id'];
-
-    // Verificar se o post existe
-    $stmt = $conn->prepare("SELECT 1 FROM blog_posts WHERE id = ?");
-    $stmt->execute([$postId]);
-    
-    if ($stmt->rowCount() === 0) {
-        sendError("Post não encontrado", 404);
-    }
-
-    // Iniciar transação
-    $conn->beginTransaction();
-
-    try {
-        // Verificar se o like já existe (usando a coluna correta)
-        $stmt = $conn->prepare("SELECT 1 FROM blog_likes WHERE post_id = ? AND user_id = ?");
-        $stmt->execute([$postId, $userId]);
-        
-        if ($stmt->rowCount() > 0) {
-            // Remover like
-            $stmt = $conn->prepare("DELETE FROM blog_likes WHERE post_id = ? AND user_id = ?");
-            $stmt->execute([$postId, $userId]);
-            $action = 'removed';
-        } else {
-            // Adicionar like (assumindo que a tabela tem colunas post_id e user_id)
-            $stmt = $conn->prepare("INSERT INTO blog_likes (post_id, user_id) VALUES (?, ?)");
-            $stmt->execute([$postId, $userId]);
-            $action = 'added';
-        }
-
-        // Obter nova contagem de likes
-        $stmt = $conn->prepare("SELECT COUNT(*) FROM blog_likes WHERE post_id = ?");
-        $stmt->execute([$postId]);
-        $likesCount = (int)$stmt->fetchColumn();
-
-        $conn->commit();
-
-        sendResponse([
-            'success' => true,
-            'action' => $action,
-            'likesCount' => $likesCount
-        ]);
-
-    } catch (PDOException $e) {
-        $conn->rollBack();
-        sendError("Erro no banco de dados: " . $e->getMessage(), 500);
-    }
-    break;
-
-        case 'add_comment':
-            // Verificar autenticação
-            $userId = getAuthorizationToken();
-            
-            if (!$userId) {
-                sendError("Token de autenticação não fornecido", 401);
-            }
-            
-            // Validar dados
-            if (empty($input['post_id'])) {
-                sendError("ID do post não fornecido");
-            }
-            
-            if (empty($input['content'])) {
-                sendError("Conteúdo do comentário não fornecido");
-            }
-            
-            $postId = $input['post_id'];
-            $content = trim($input['content']);
-            
-            // Validar tamanho do comentário
-            if (mb_strlen($content) > 500) {
-                sendError("O comentário não pode exceder 500 caracteres");
-            }
-            
-            // Verificar se o post existe
-            $stmt = $conn->prepare("SELECT id FROM blog_posts WHERE id = ?");
-            $stmt->execute([$postId]);
-            
-            if ($stmt->rowCount() === 0) {
-                sendError("Post não encontrado", 404);
-            }
-            
-            // Inserir comentário
-            $stmt = $conn->prepare("
-                INSERT INTO blog_comments (post_id, user_id, content)
-                VALUES (?, ?, ?)
-            ");
-            
-            $stmt->execute([$postId, $userId, $content]);
-            
-            // Obter dados completos do comentário
-            $commentId = $conn->lastInsertId();
-            
-            $stmt = $conn->prepare("
-                SELECT 
-                    c.id,
-                    c.post_id,
-                    c.user_id,
-                    c.content,
-                    c.created_at,
-                    u.first_name,
-                    u.last_name,
-                    u.avatar
-                FROM blog_comments c
-                JOIN users u ON c.user_id = u.id
-                WHERE c.id = ?
-            ");
-            
-            $stmt->execute([$commentId]);
-            $comment = $stmt->fetch(PDO::FETCH_ASSOC);
-            
-            sendResponse([
-                'success' => true,
-                'message' => 'Comentário adicionado com sucesso',
-                'comment' => $comment
-            ]);
-            break;
-
-        case 'get_comments':
-            // Validar post_id
-            if (empty($input['post_id'])) {
-                sendError("ID do post não fornecido");
-            }
-            
-            $postId = $input['post_id'];
-            
-            // Obter comentários
-            $stmt = $conn->prepare("
-                SELECT 
-                    c.id,
-                    c.post_id,
-                    c.user_id,
-                    c.content,
-                    c.created_at,
-                    u.first_name,
-                    u.last_name,
-                    u.avatar
-                FROM blog_comments c
-                JOIN users u ON c.user_id = u.id
-                WHERE c.post_id = ?
-                ORDER BY c.created_at DESC
-            ");
-            
-            $stmt->execute([$postId]);
-            $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
-            
-            sendResponse([
-                'success' => true,
-                'comments' => $comments
-            ]);
-            break;
-
-        default:
-            sendError("Ação não reconhecida");
-    }
-} catch (PDOException $e) {
-    sendError("Erro no banco de dados: " . $e->getMessage(), 500);
-} catch (Exception $e) {
-    sendError("Erro interno: " . $e->getMessage(), 500);
-}
-
-
-CREATE TABLE IF NOT EXISTS blog_likes (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    post_id INT NOT NULL,
-    user_id INT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (post_id) REFERENCES blog_posts(id) ON DELETE CASCADE,
-    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
-    UNIQUE KEY unique_like (post_id, user_id)
-) ENGINE=InnoDB;
-
-CREATE TABLE IF NOT EXISTS posts (
-    id INT(11) NOT NULL AUTO_INCREMENT,
-    user_id INT(11) NOT NULL,
-    content TEXT NOT NULL,
-    image LONGTEXT DEFAULT NULL,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(),
-    PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- Tabela de comentários
-CREATE TABLE IF NOT EXISTS comments (
-    id INT(11) NOT NULL AUTO_INCREMENT,
-    post_id INT(11) NOT NULL,
-    user_id INT(11) NOT NULL,
-    content TEXT NOT NULL,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
-    PRIMARY KEY (id),
-    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
-    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-
